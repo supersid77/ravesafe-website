@@ -17,4 +17,4 @@ Approvers: Sid and Jimmy.
 
 | Source | Written permission | Approved to switch on | Enabled |
 |---|---|---|---|
-| The Loop | Not yet (email drafted, not sent) | No | No |
+| The Loop | Okay received by Sid, 28 Oct 2026 (written copy to be filed) | Yes, Sid, 28 Oct 2026 19:38 | Yes |

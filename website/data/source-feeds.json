@@ -6,8 +6,9 @@
       "name": "The Loop",
       "feed_url": "https://www.wearetheloop.org/drug-alerts-full?format=rss",
       "home_url": "https://www.wearetheloop.org/drug-alerts",
-      "enabled": false,
-      "permission": "Not yet asked (draft email sent to Sid 28 Oct 2026)"
+      "enabled": true,
+      "permission": "Okay received by Sid, 28 Oct 2026. Written copy to be filed",
+      "switched_on": "Approved by Sid, 28 Oct 2026 19:38"
     }
   ]
 }
