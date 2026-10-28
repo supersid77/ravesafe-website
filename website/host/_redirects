@@ -1,0 +1,51 @@
+# Old WordPress addresses -> new homes. 301 = moved for good, so Google passes the ranking across.
+# Old merged pages, the About page, the shop, planets and old PDF links.
+
+# Merged or replaced pages
+/harm-reduction-advice/   /know-before-you-go/                301
+/harm-reduction-advice    /know-before-you-go/                301
+/get-festival-ready/      /festival-prep/                     301
+/get-festival-ready       /festival-prep/                     301
+/it-starts-with-us/       /                                   301
+
+# Shop not built yet
+/shop/                    /                                   301
+
+# Ketaverse planets now live on their own site.
+# Point each at its planet once entertheketaverse.com has its page addresses.
+/planet-plush-intro/      https://entertheketaverse.com/      301
+/planet-drift-intro/      https://entertheketaverse.com/      301
+/planet-x-intro/          https://entertheketaverse.com/      301
+/planet-kg-intro/         https://entertheketaverse.com/      301
+/planet-rubble-intro/     https://entertheketaverse.com/      301
+/planet-myco-intro/       https://entertheketaverse.com/      301
+/planet-woah-intro/       https://entertheketaverse.com/      301
+/planet-vibe-intro/       https://entertheketaverse.com/      301
+/planet-beve-intro/       https://entertheketaverse.com/      301
+/planet-420-intro/        https://entertheketaverse.com/      301
+/planet-plush             https://entertheketaverse.com/      301
+
+# About page has a clean address now
+/about-us-2/              /about-us/                          301
+/about-us-2               /about-us/                          301
+
+# Old download links (WordPress uploads) -> clean PDF names
+/wp-content/uploads/2026/02/Advice_for_Parents__Caregivers_-_Ketamine_Explained_MASTER.pdf  /downloads/parents-guide-ketamine.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-Cocaine-Explained-FINAL-MASTER.pdf  /downloads/parents-guide-cocaine.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-MDMA-Explained-FINAL-MASTER.pdf  /downloads/parents-guide-mdma.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-Cannabis-Explained-FINAL-MASTER.pdf  /downloads/parents-guide-cannabis.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-Benzodiazepines-Explained-FINAL-MASTER-v2.pdf  /downloads/parents-guide-benzodiazepines.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-Alcohol-Explained-FINAL-MASTER.pdf  /downloads/parents-guide-alcohol.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-Mixing-Drugs-Explained-FINAL-MASTER.pdf  /downloads/parents-guide-mixing-drugs.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-How-to-Talk-About-Drugs-FINAL-MASTER.pdf  /downloads/parents-guide-how-to-talk-about-drugs.pdf  301
+/wp-content/uploads/2026/02/Advice-for-Parents-Caregivers-When-to-Seek-Help-FINAL-MASTER-1.pdf  /downloads/parents-guide-when-to-seek-help.pdf  301
+/wp-content/uploads/2026/02/RaveSafe_Parents_Quick_Reference_Guide_FINAL_MASTER_v2.pdf  /downloads/parents-quick-reference-guide.pdf  301
+/wp-content/uploads/2026/02/RaveSafe_Break_the_K_Loop_Workbook_v4_MASTER_PADDED_MORE.pdf  /downloads/breaking-the-loop-ketamine.pdf  301
+/wp-content/uploads/2026/05/Breaking-the-loop-Alcohol-edition.pdf  /downloads/breaking-the-loop-alcohol.pdf  301
+/wp-content/uploads/2026/05/Breaking-the-loop-Nicotine-edition.pdf  /downloads/breaking-the-loop-nicotine.pdf  301
+/wp-content/uploads/2026/02/Drug-Interactions-Quick-Guide.pdf  /downloads/drug-interactions-quick-guide.pdf  301
+/wp-content/uploads/2026/02/What-To-Do-If-Your-Friend-Is-Unwell.pdf  /downloads/what-to-do-if-your-friend-is-unwell.pdf  301
+/wp-content/uploads/2026/02/Festival-First-Aid-Cheat-Sheet.pdf  /downloads/festival-first-aid-cheat-sheet.pdf  301
+/wp-content/uploads/2026/02/Festival-Safety-Checklist.pdf  /downloads/festival-safety-checklist.pdf  301
+/wp-content/uploads/2026/02/Comedown-aftercare-guide.pdf  /downloads/comedown-aftercare-guide.pdf  301
+/wp-content/uploads/2026/02/Know-Your-Rights-At-Festivals.pdf  /downloads/know-your-rights-at-festivals.pdf  301

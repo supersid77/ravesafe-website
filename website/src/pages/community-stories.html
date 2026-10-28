@@ -1,0 +1,100 @@
+---
+title: Community Stories | Real Rave and Festival Stories | RaveSafe Community
+description: The stories behind the nights we never forget. Share a moment someone stepped in, a welfare hero, a festival team that got it right, or just the laughs. Named or anonymous.
+path: /community-stories/
+---
+<section class="hero" aria-labelledby="cs-title">
+  <div class="wrap split">
+    <div class="stack">
+      <p class="kicker">Community stories</p>
+      <h1 id="cs-title" class="display h-xl h-xl--fit">The stories behind the nights <span class="lime">we never forget</span></h1>
+      <p class="lead">This is where we capture the feel of the scene. The people, the moments and the stories. Not every story is about something going wrong. Some are about a small kindness or just a really good night.</p>
+      <p class="muted">Share yours with your name or keep it anonymous. Your call.</p>
+      <div class="hero__actions"><a class="btn btn--lime" href="#share">Share your story</a></div>
+    </div>
+    <div>{{ photo "nikki-night-festival" "hero" "rounded" }}</div>
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="little-title">
+  <div class="wrap split">
+    <div>{{ photo "glitter-peace-sign" "hero" "rounded" }}</div>
+    <div class="stack">
+      <p class="kicker">Small moments</p>
+      <h2 id="little-title" class="display h-lg">It's the little moments that make the <span class="lime">biggest memories</span></h2>
+      <p class="muted">A stranger checking you're OK. A mate who stayed with you when you needed it. A festival team member who went further than they had to. The small stuff is often what matters most.</p>
+      <p class="muted">We want to celebrate the caring side of the scene, because it's a big part of why we keep coming back.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="good-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="kicker">Not just the hard stories</p>
+        <h2 id="good-title" class="display h-lg">The good in the scene too</h2>
+        <p class="muted">The humour, the kindness, the helpful strangers, the event teams who get it right, and the atmosphere that keeps pulling us back.</p>
+      </div>
+    </div>
+    <div class="grid grid--3">
+      <div class="who" style="--c: var(--lime)"><h3>Someone stepped in</h3><p>The mate, stranger or steward who noticed and did something.</p></div>
+      <div class="who" style="--c: var(--pink-text)"><h3>Welfare heroes</h3><p>The welfare, medic and security teams who made a hard moment easier.</p></div>
+      <div class="who" style="--c: var(--cyan)"><h3>The laughs</h3><p>The build-up, the daft bits and the reunions. The good, the bad and the funny all count.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="share" aria-labelledby="share-title" style="scroll-margin-top: 90px">
+  <div class="wrap split split--top">
+    <div class="stack">
+      <p class="kicker">Tell us what happened</p>
+      <h2 id="share-title" class="display h-lg">Share your <span class="lime">story</span></h2>
+      <p class="muted">Tell us about the people and moments that matter to you. We read every one. With your OK, we may share it on RaveSafe and our socials so others can learn from it, laugh at it or feel less alone.</p>
+      {{ photo "jimmy-and-nikki-selfie" "card" "rounded" }}
+      <p class="note">Real stories. Real people. Looking after each other.</p>
+    </div>
+    <form class="form" name="story" method="POST" action="https://api.web3forms.com/submit" data-web3form>
+      <input type="hidden" name="access_key" value="d3d24ad8-09b5-44aa-8fa9-787980e7d575">
+      <input type="hidden" name="subject" value="New community story from the RaveSafe website">
+      <input type="hidden" name="from_name" value="RaveSafe website">
+      <input type="hidden" name="redirect" value="https://ravesafecommunity.com/thank-you/">
+      <input type="checkbox" name="botcheck" class="form__trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="field">
+        <label for="s-type">What kind of story is it?</label>
+        <select id="s-type" name="story-type" required>
+          <option value="" disabled selected>Pick one</option>
+          <option>Someone stepped in</option>
+          <option>A funny moment</option>
+          <option>A welfare hero</option>
+          <option>Security done right</option>
+          <option>Event atmosphere</option>
+          <option>Why we rave</option>
+          <option>A festival or team shoutout</option>
+          <option>Nominate someone for recognition</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field"><label for="s-story">Your story</label><textarea id="s-story" name="story" rows="7" required placeholder="What happened? Who was there? How did it feel?"></textarea></div>
+      <fieldset class="field">
+        <legend>Stay anonymous?</legend>
+        <div class="checks checks--inline">
+          <label><input type="radio" name="anonymous" value="Yes" checked> Yes, keep my name off it</label>
+          <label><input type="radio" name="anonymous" value="No"> No, you can use my first name</label>
+        </div>
+      </fieldset>
+      <div class="form__row">
+        <div class="field"><label for="s-name">First name <span class="opt">(optional)</span></label><input id="s-name" name="first-name" autocomplete="given-name"></div>
+        <div class="field"><label for="s-event">Festival, event or team <span class="opt">(optional)</span></label><input id="s-event" name="event"></div>
+      </div>
+      <div class="field"><label for="s-photo">Link to a photo <span class="opt">(optional)</span></label><input id="s-photo" name="photo-link" type="url" placeholder="https://"></div>
+      <div class="field"><label for="s-email">Email, if you'd like a reply <span class="opt">(optional)</span></label><input id="s-email" name="email" type="email" autocomplete="email"></div>
+      <label class="consent"><input type="checkbox" name="permission" value="Yes" required> I'm happy for RaveSafe to share this story on its website and socials, in line with my choice above.</label>
+      <label class="consent"><input type="checkbox" name="age-16-plus" value="Yes" required> I'm 16 or over.</label>
+      <label class="consent"><input type="checkbox" name="privacy-consent" value="Yes" required> <span>I've read the <a href="/privacy-policy/">privacy policy</a> and I'm happy for RaveSafe to store my story and any details I've given.</span></label>
+      <button class="btn btn--lime" type="submit">Share your story</button>
+      <p class="form__status" role="status" aria-live="polite"></p>
+      <p class="note">Please don't include anyone's full name or details without their OK.</p>
+    </form>
+  </div>
+</section>

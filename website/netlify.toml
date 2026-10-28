@@ -1,0 +1,7 @@
+# Netlify builds the site from this repository.
+[build]
+  command = "python build.py"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"

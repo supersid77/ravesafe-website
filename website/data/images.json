@@ -1,0 +1,138 @@
+{
+  "_note": "One entry per photo. Drop the full-size original into images-original/ with this name (any of .jpg .jpeg .png .webp) and the build shrinks it and swaps out the placeholder. Alt text lives here only.",
+  "ravesafe-logo": {
+    "alt": "RaveSafe Community logo: Live for the community"
+  },
+  "festival-heart-hands-crowd": {
+    "alt": "Festival crowd at night with one person making a heart shape with their hands",
+    "note": "New photo needed for the homepage hero"
+  },
+  "camping-kit-flat-lay": {
+    "alt": "Festival camping kit laid out on the floor, from tent pegs to toiletries"
+  },
+  "crowd-facing-dj-stage": {
+    "alt": "Huge crowd facing a lit-up main stage at dusk"
+  },
+  "friend-fanning-hot-friend": {
+    "alt": "Woman fanning a hot, tired friend sat against a fence at a sunny festival, water bottle in his hand",
+    "position": "center 35%"
+  },
+  "drinking-water-hot-day": {
+    "alt": "Festivalgoer drinking from a big bag of water on a hot day"
+  },
+  "two-mates-sunglasses": {
+    "alt": "Two mates in sunglasses with their arms round each other at an event"
+  },
+  "glowing-stage-figure": {
+    "alt": "Huge glowing figure lit up on stage above a dark crowd"
+  },
+  "friends-festival-selfie-pride": {
+    "alt": "Group of friends taking a selfie at a festival, Pride flag behind them"
+  },
+  "friends-checking-on-mate": {
+    "alt": "Friends gathered round a mate on the grass at a festival, one in a yellow raincoat kneeling to check on him"
+  },
+  "raver-inflatable-unicorn": {
+    "alt": "Raver in sunglasses, arms up, riding an inflatable unicorn at night"
+  },
+  "crowd-blue-pink-lights": {
+    "alt": ""
+  },
+  "nikki-night-festival": {
+    "alt": "Nikki in glitter face paint, sipping a drink through a straw in front of a lit-up festival stage"
+  },
+  "crowd-hands-up-red-smoke": {
+    "alt": "Crowd with hands in the air under red smoke and stage lights"
+  },
+  "overwhelmed-in-club": {
+    "alt": "Young man holding his head in his hands, overwhelmed in a busy club"
+  },
+  "three-friends-night-event": {
+    "alt": "Three friends posing together at a night event"
+  },
+  "you-are-loved-tshirt": {
+    "alt": "Woman in a crowd wearing a \"You are loved\" t-shirt"
+  },
+  "friends-raising-drinks": {
+    "alt": "Group of friends raising drinks together in the sunshine"
+  },
+  "picking-up-litter": {
+    "alt": "Gloved hand picking up a plastic bottle from the grass"
+  },
+  "beach-group-fire": {
+    "alt": "Large group of friends on a beach at dusk, gathered round a small fire with a dog"
+  },
+  "crowd-on-shoulders-lights": {
+    "alt": "Crowd going wild under blue and pink lights, one person up on shoulders"
+  },
+  "jimmy-and-nikki-selfie": {
+    "alt": "Jimmy and Nikki taking a selfie under pink neon lights"
+  },
+  "toilet-roll-armful": {
+    "alt": "Person in a pink hoodie hugging an armful of toilet rolls"
+  },
+  "parent-and-young-adult": {
+    "alt": "Mum laughing with her grown-up daughter as she packs a suitcase for a festival",
+    "position": "center 30%"
+  },
+  "whats-in-the-bag": {
+    "alt": "Festival bag packed and ready, with essentials laid out beside it",
+    "note": "From the current Festival Prep page background (whats-in-the-bag.jpg). Check alt text matches the photo"
+  },
+  "miss-k": {
+    "alt": "Illustration of Miss K, RaveSafe's harm reduction mentor, cheering in a festival crowd with a drink in her hand",
+    "position": "center 15%"
+  },
+  "ketaverse-map": {
+    "alt": "Map of the Ketaverse showing all ten planets glowing in space",
+    "note": "Ketaverse artwork for the gateway page"
+  },
+  "friends-fans-sunglasses": {
+    "alt": "Two friends in sunglasses grinning at a sunny outdoor party, holding up black hand fans"
+  },
+  "crowd-in-tent": {
+    "alt": "Packed crowd dancing under the lights in a big festival tent"
+  },
+  "lost-property-cabin": {
+    "alt": "Festivalgoers at the lost property cabin at night, under a big Lost Property sign",
+    "position": "center 15%"
+  },
+  "glitter-peace-sign": {
+    "alt": "Woman in glitter face paint pulling a surprised face and making a peace sign next to a friend, under red club lights"
+  },
+  "couple-club-lights": {
+    "alt": "Couple posing together in a club under red and blue lights"
+  },
+  "heart-sunglasses-ibiza": {
+    "alt": "Woman in heart-shaped sunglasses and a man in a pink Ibiza t-shirt smiling in the sunshine"
+  },
+  "cream-classics-main-room": {
+    "alt": "Clubbers dancing in front of the DJ booth in the Cream Classics main room"
+  },
+  "cafe-mambo-first-aid": {
+    "alt": "Hand making a peace sign outside Café Mambo in Ibiza, with a first aid sign on the lamp post"
+  },
+  "festival-trolley": {
+    "alt": "Festival trolley piled high with camping gear and bags in the car park, ready for the walk in",
+    "pad": "16:10"
+  },
+  "ketamine-word-cloud": {
+    "alt": "Word cloud with ketamine in the middle, surrounded by words like powder, illegal, addiction and depression"
+  },
+  "three-friends-night-out": {
+    "alt": "Man in a Lacoste t-shirt posing between two women in lace outfits on a busy street at night",
+    "position": "center 12%"
+  },
+  "ravesafe-unicorn": {
+    "alt": "",
+    "note": "Header logo. Decorative here because the link already says RaveSafe Community home. Cleaned and colour-matched copy of unicorn-lime-transparent-512.png"
+  },
+  "festival-group-selfie": {
+    "alt": "Big group of friends squeezed into a selfie at a busy outdoor festival, a Pride flag behind them",
+    "position": "center 30%"
+  },
+  "ravesafe-crew-tshirts": {
+    "alt": "Three lads with their arms round each other, wearing glowing RaveSafe Community unicorn t-shirts",
+    "position": "center 60%"
+  }
+}

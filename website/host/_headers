@@ -1,0 +1,18 @@
+# Security headers for every page. Fixes the Screaming Frog security warnings.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; media-src 'self'; frame-src https://www.youtube-nocookie.com; frame-ancestors 'self'; form-action 'self' https://api.web3forms.com; connect-src 'self' https://api.web3forms.com
+
+# Shrunk images never change name, so browsers can keep them
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/site.webmanifest
+  Content-Type: application/manifest+json

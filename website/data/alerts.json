@@ -1,0 +1,20 @@
+{
+  "_how_to_add": "Copy the _example block into the alerts list (newest at the top), change the words, run the build. level: red, caution or plan. category: Pattern watch, Substance watch or Festival watch. date: YYYY-MM-DD.",
+  "_example": {
+    "id": "short-name-for-the-alert",
+    "date": "2026-10-25",
+    "level": "red",
+    "category": "Substance watch",
+    "title": "Headline",
+    "source": "Where it came from, e.g. WEDINOS result number",
+    "summary": "One or two sentences on what was found.",
+    "why": "Why it matters.",
+    "action": "What people should do.",
+    "chips": [
+      "Short tag",
+      "Short tag"
+    ]
+  },
+  "_old_removed": "Old alerts removed 25 Oct 2026. A feed from drug testing services is planned.",
+  "alerts": []
+}
