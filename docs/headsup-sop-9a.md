@@ -13,6 +13,11 @@ Approvers: Sid and Jimmy.
 7. **Failures.** If a source can't be reached, the list says so and links to the source directly. If the list hasn't updated for 48 hours, it hides itself and points people to the source directly. It must never show old headlines as if they were current.
 8. **Everything else unchanged.** Apart from this list, the rules in this SOP still apply in full, including "no response means no approval".
 
+## Settings
+
+- Only headlines from the last 30 days are shown (decided by Sid, 28 Oct 2026). Older or undated headlines are left out.
+- Up to 8 headlines at a time.
+
 ## Status
 
 | Source | Written permission | Approved to switch on | Enabled |
