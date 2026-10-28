@@ -184,21 +184,6 @@
   });
 })();
 
-// Head's Up: filter alerts by type
-(function () {
-  var btns = document.querySelectorAll('[data-filter]');
-  if (!btns.length) return;
-  btns.forEach(function (b) {
-    b.addEventListener('click', function () {
-      var f = b.dataset.filter;
-      btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
-      document.querySelectorAll('.alert--full').forEach(function (a) {
-        a.hidden = !(f === 'all' || a.dataset.cat === f);
-      });
-    });
-  });
-})();
-
 // Share button: phone share sheet, or copy the link
 (function () {
   document.querySelectorAll('[data-share]').forEach(function (btn) {

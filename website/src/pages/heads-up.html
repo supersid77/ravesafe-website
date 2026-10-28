@@ -1,17 +1,17 @@
 ---
-title: Drug Alerts and Testing Results UK | Head's Up | RaveSafe Community
-description: What's doing the rounds before you go in. RaveSafe's Head's Up feed of drug testing results, mis-sold substances and festival risks, in plain English.
+title: Drug Alerts and Testing Results UK | Heads Up | RaveSafe Community
+description: What's doing the rounds before you go in. RaveSafe Heads Up: drug checking results and warnings from UK and European testing services, reviewed and explained in plain English, with credit to the original source.
 path: /heads-up/
 ---
 <section class="page-hero" aria-labelledby="hu-title">
   <div class="wrap split">
     <div class="stack">
-      <p class="kicker">RaveSafe Head's Up</p>
+      <p class="kicker">RaveSafe Heads Up</p>
       <h1 id="hu-title" class="display h-xl h-xl--fit">Know what's doing the rounds <span class="lime">before you go in</span></h1>
       <p class="lead">We're not here to scare people. We track the trends, the unpredictability, the dangerous bits and the unknowns before, during and after festival season, then turn them into something clear, honest and useful.</p>
       <div class="hero__actions">
         <a class="btn btn--lime" href="#alerts">See the alerts</a>
-        <button class="btn btn--ghost" type="button" data-share>Share Head's Up</button>
+        <button class="btn btn--ghost" type="button" data-share>Share Heads Up</button>
       </div>
     </div>
     <div class="grid" style="grid-template-columns: 1fr; gap: 14px">
@@ -27,20 +27,30 @@ path: /heads-up/
   <div class="wrap stack">
     <div class="section-head" style="margin-bottom: 0">
       <div>
-        <p class="kicker">Latest first</p>
-        <h2 id="alerts-title" class="display h-lg">Current alerts</h2>
+        <p class="kicker">Reviewed by RaveSafe</p>
+        <h2 id="alerts-title" class="display h-lg">Current Heads Up</h2>
+        <p class="muted">Every entry here has been checked and approved by a member of the RaveSafe team. We always credit and link the service that did the testing.</p>
       </div>
     </div>
-    <div class="alerts" aria-live="polite">
-{{ alerts "full" }}
+    <ul class="hu-key" aria-label="What the labels mean">
+      <li><span class="hu-tag hu--alert"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3Z"/><path d="M12 10v4M12 17v.01"/></svg>Alert</span> A serious risk. Worth acting on now.</li>
+      <li><span class="hu-tag hu--headsup"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.01"/></svg>Heads Up</span> Worth knowing before you go. Not urgent.</li>
+      <li><span class="hu-tag hu--watch"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>One to Watch</span> An early finding. Not a pattern yet.</li>
+    </ul>
+    <div class="alerts">
+{{ headsup "current" }}
     </div>
   </div>
 </section>
 
+{{ headsup "feed" }}
+
+{{ headsup "archive" }}
+
 <section class="section section--alt" aria-labelledby="mate-title">
   <div class="wrap split split--top">
     <div class="stack">
-      <p class="kicker">Head's Up spots risk early. It doesn't replace action.</p>
+      <p class="kicker">Heads Up spots risk early. It doesn't replace action.</p>
       <h2 id="mate-title" class="display h-lg">If your mate isn't right</h2>
       <p class="muted">Overheating, struggling to breathe, chest pain, fitting, collapsing, drifting in and out, or can't be woken properly? Get help straight away.</p>
       <div><a class="btn btn--pink" href="/what-to-do/">What to do</a></div>
@@ -56,7 +66,7 @@ path: /heads-up/
 <section class="section" aria-labelledby="why-title">
   <div class="wrap split">
     <div class="stack">
-      <p class="kicker">Why we do Head's Up</p>
+      <p class="kicker">Why we do Heads Up</p>
       <h2 id="why-title" class="display h-lg">Test your stuff. Plan ahead. <span class="lime">Make it a ritual.</span></h2>
     </div>
     <div class="stack">

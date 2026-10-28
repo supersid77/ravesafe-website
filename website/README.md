@@ -24,11 +24,24 @@ The finished site lands in `dist/`. Photos are shrunk to WebP automatically. Any
 3. Use it on a page with `{{ photo "the-name" "card" }}` (sizes: hero, wide, card, small).
 4. If a crop cuts off the important bit, add `"position": "center 20%"` to that photo in images.json. Lower numbers show more of the top.
 
-## Posting a Head's Up alert
-1. Open `data/alerts.json`.
-2. Copy the `_example` block into the `alerts` list, newest at the top.
-3. Change the words. `level` is `red`, `caution` or `plan`. `date` is like `2026-10-25`.
-4. Run `python build.py`. It shows on Head's Up and the latest three show on the homepage.
+## Heads Up
+
+Everything lives in two files in `data/`. The logic is in `headsup.py`.
+
+**Adding a reviewed entry (`data/headsup.json`)**
+
+1. Copy `_template` into the `entries` list and fill it in. Keep `"status": "draft"` while you work on it. Drafts never show on the site.
+2. Once a named person has approved it, set `"status": "approved"` and fill in `approved_by` and `approved_at`.
+3. Commit to GitHub. Netlify rebuilds and it goes live in a couple of minutes. The newest three also show on the homepage.
+4. To take one down, set `"status": "retired"` and add a `retired_reason`. It moves to the archive with its history.
+
+The build stops, and nothing changes on the live site, if an approved or retired entry is missing anything mandatory (source link, testing organisation, location, why we've classified it, approver and so on). The message says what's missing.
+
+Categories are `alert`, `heads-up` and `one-to-watch`. Monitor items are internal and never go in this file.
+
+**Automatic headlines (`data/source-feeds.json`)**
+
+Each source has `"enabled": false` until the SOP wording is approved and that service has agreed. Set it to `true` to show its latest headlines under "Latest from testing services", labelled as not yet reviewed. Only the headline, date, name and link are shown. If a feed is down, the site still builds and says so.
 
 ## Free resource PDFs
 Put the PDFs in `downloads/` using the clean names the build lists (for example `parents-guide-ketamine.pdf`). Old WordPress PDF links redirect to the new names automatically.

@@ -1,0 +1,46 @@
+{
+  "_read_me": "RaveSafe Heads Up reviewed entries. Nothing shows on the website unless status is approved AND approved_by and approved_at are filled in. Drafts never show. See README for how to add one.",
+  "_categories": {
+    "alert": "Alert: significant risk needing timely awareness or action",
+    "heads-up": "Heads Up: worth knowing, not urgent",
+    "one-to-watch": "One to Watch: credible early finding, not yet a pattern"
+  },
+  "_template": {
+    "id": "HU-2026-0001",
+    "status": "draft | approved | retired",
+    "classification": "alert | heads-up | one-to-watch",
+    "title": "Short plain headline",
+    "summary": "One or two sentences on what was found.",
+    "sold_as": "What it was sold or submitted as",
+    "detected": [
+      "What was actually found"
+    ],
+    "evidence_type": "Laboratory-confirmed | Official public health warning | Surveillance signal",
+    "testing_org": "Who did the testing",
+    "issuing_org": "Who issued the warning, if different",
+    "source_url": "Direct link to the original result or warning",
+    "sample_ref": "Sample or report reference",
+    "source_date": "YYYY-MM-DD (when the source published it)",
+    "location_label": "Local | Regional UK | UK-wide | European | International | Location unknown",
+    "location_detail": "Where tested, submitted or bought, as far as known",
+    "original_warning_level": "The source's own warning level, if it has one",
+    "trend_status": "Isolated | Repeated | Emerging | Established | Unknown",
+    "why_classified": "Why we've classified this: what's confirmed, why it matters, why this category is proportionate.",
+    "uncertainty": "What's still unknown.",
+    "advice": [
+      "Specific safety step",
+      "Another step"
+    ],
+    "reviewed_date": "YYYY-MM-DD (RaveSafe review)",
+    "approved_by": "Name of the person who approved it",
+    "approved_at": "YYYY-MM-DD HH:MM",
+    "history": [
+      {
+        "date": "YYYY-MM-DD",
+        "change": "What changed and why"
+      }
+    ],
+    "retired_reason": "Only for retired entries"
+  },
+  "entries": []
+}

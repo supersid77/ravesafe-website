@@ -111,50 +111,8 @@ def photo(name, size="card", cls=""):
 PHOTO_RE = re.compile(r'\{\{\s*photo\s+"([^"]+)"(?:\s+"([^"]*)")?(?:\s+"([^"]*)")?\s*\}\}')
 
 
-# ---------- Head's Up alerts (data/alerts.json) ----------
-ALERTS = json.loads((ROOT / "data/alerts.json").read_text())["alerts"]
-LEVELS = {"red": ("Red alert", "tag--pink", "alert--red"),
-          "caution": ("Be cautious", "tag--cyan", "alert--caution"),
-          "plan": ("Plan ahead", "tag--lime", "alert--plan")}
-ALERTS_RE = re.compile(r'\{\{\s*alerts\s+"(full|latest)"(?:\s+(\d+))?\s*\}\}')
-
-
-def nice_date(d):
-    if not d:
-        return ""
-    from datetime import date
-    y, m, dd = (int(x) for x in d.split("-"))
-    when = date(y, m, dd)
-    return f'<time datetime="{d}">{when.day} {when.strftime("%B %Y")}</time>'
-
-
-def alert_card(a, full):
-    label, tag, cls = LEVELS[a["level"]]
-    cat = a["category"].split()[0].lower()
-    top = (f'<div class="alert__top"><span class="tag {tag}">{label}</span>'
-           f'<span class="alert__cat">{html.escape(a["category"])}</span>{nice_date(a.get("date", ""))}</div>')
-    if not full:
-        return (f'<article class="panel alert {cls}">{top}<h3>{html.escape(a["title"])}</h3>'
-                f'<p>{html.escape(a["summary"])}</p>'
-                f'<a class="alert__more" href="/heads-up/#{a["id"]}">Read the full alert</a></article>')
-    chips = "".join(f"<li>{html.escape(c)}</li>" for c in a.get("chips", []))
-    return (f'<article class="alert alert--full {cls}" id="{a["id"]}" data-cat="{cat}">{top}'
-            f'<h3>{html.escape(a["title"])}</h3><p class="alert__source">{html.escape(a["source"])}</p>'
-            f'<p class="alert__summary">{a["summary"]}</p>'
-            f'<div class="alert__cols"><div><p class="list-title list-title--dont">Why it matters</p><p>{a["why"]}</p></div>'
-            f'<div class="alert__action"><p class="list-title list-title--do">Heads up</p><p>{a["action"]}</p></div></div>'
-            f'<ul class="alert__chips">{chips}</ul></article>')
-
-
-def render_alerts(kind, n):
-    if not ALERTS:
-        return ('<div class="panel alert-empty"><span class="tag tag--cyan">Coming soon</span>'
-                '<h3>Live alerts from UK drug testing services</h3>'
-                '<p>We\'re linking Head\'s Up to drug checking services so the latest warnings land here automatically. '
-                'Until then, check <a href="https://www.wearetheloop.org/drug-alerts" rel="noopener">The Loop\'s drug alerts</a> '
-                'and <a href="https://www.wedinos.org/sample-results" rel="noopener">WEDINOS sample results</a> before you go.</p></div>')
-    items = ALERTS[: int(n)] if (kind == "latest" and n) else ALERTS
-    return "\n".join(alert_card(a, kind == "full") for a in items)
+# ---------- Heads Up (see headsup.py for the approval gate) ----------
+import headsup
 
 
 DISCLAIMER = ('<aside class="disclaimer" aria-label="Medical disclaimer"><div class="wrap disclaimer__inner">'
@@ -231,6 +189,9 @@ def build_audio():
 
 
 def build():
+    # Check Heads Up first, so a bad entry stops the build before anything is touched
+    hu_render, hu_live, hu_old = headsup.renderer()
+    print(f"Heads Up: {hu_live} approved, {hu_old} archived (drafts are never shown)")
     if DIST.exists():
         shutil.rmtree(DIST)
     DIST.mkdir()
@@ -249,7 +210,7 @@ def build():
         meta, body = read_page(p)
         path = meta["path"]
         body = body.replace("{{ disclaimer }}", DISCLAIMER)
-        body = ALERTS_RE.sub(lambda m: render_alerts(m.group(1), m.group(2)), body)
+        body = headsup.SHORTCODE.sub(hu_render, body)
         body = PHOTO_RE.sub(lambda m: photo(m.group(1), m.group(2) or "card", m.group(3) or ""), body)
         page = (layout.replace("{{ content }}", body)
                 .replace("{{ title }}", html.escape(meta["title"]))
