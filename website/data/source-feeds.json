@@ -1,5 +1,5 @@
 {
-  "_read_me": "Automatic headlines from drug checking services (SOP section 9a). Only switch a source on (enabled: true) once the SOP wording is approved and that service has agreed. We only ever show their headline, date, name and link.",
+  "_read_me": "Automatic headlines from drug checking services (SOP section 9a, approved by Sid 28 Oct 2026). Only switch a source on (enabled: true) with approval from Sid or Jimmy AND the service's written agreement. We only ever show their headline, date, name and link. The list hides itself if it hasn't updated for 48 hours.",
   "show_max": 8,
   "sources": [
     {

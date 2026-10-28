@@ -184,6 +184,18 @@
   });
 })();
 
+// Heads Up: hide testing-service headlines if they haven't updated for 48 hours (SOP 9a point 7)
+(function () {
+  var box = document.querySelector('[data-feed-checked]');
+  if (!box) return;
+  var checked = Date.parse(box.dataset.feedChecked);
+  var maxMs = (parseFloat(box.dataset.feedMaxHours) || 48) * 3600000;
+  if (isNaN(checked) || Date.now() - checked > maxMs) {
+    box.querySelector('.hu-feed').hidden = true;
+    box.querySelector('.hu-feed__stale').hidden = false;
+  }
+})();
+
 // Share button: phone share sheet, or copy the link
 (function () {
   document.querySelectorAll('[data-share]').forEach(function (btn) {
