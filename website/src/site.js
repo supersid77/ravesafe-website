@@ -193,7 +193,13 @@
   if (isNaN(checked) || Date.now() - checked > maxMs) {
     box.querySelector('.hu-feed').hidden = true;
     box.querySelector('.hu-feed__stale').hidden = false;
+    return;
   }
+  // Also drop any headline that has passed the age limit since the last build
+  var maxAge = (parseFloat(box.dataset.feedMaxDays) || 30) * 86400000;
+  box.querySelectorAll('.hu-feed li[data-date]').forEach(function (li) {
+    if (Date.now() - Date.parse(li.dataset.date) > maxAge + 86400000) li.hidden = true;
+  });
 })();
 
 // Share button: phone share sheet, or copy the link

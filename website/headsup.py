@@ -190,18 +190,25 @@ def render_feed(fetch=fetch_feed):
     items, failed = [], []
     for s in on:
         try:
-            items += fetch(s, limit)
+            items += fetch(s, 50)
         except Exception as err:  # a broken feed must never break the site
             print(f"  feed skipped: {s['name']} ({err})")
             failed.append(s)
-    items.sort(key=lambda i: i["date"] or date.min, reverse=True)
+    # Only recent headlines. Undated ones are dropped as we can't tell how old they are.
+    max_age = int(cfg.get("max_age_days", 30))
+    cutoff = date.today().toordinal() - max_age
+    items = [i for i in items if i["date"] and i["date"].toordinal() >= cutoff]
+    items.sort(key=lambda i: i["date"], reverse=True)
     rows = "".join(
-        f'<li><a href="{esc(i["link"])}" rel="noopener">{esc(i["title"])}</a>'
+        f'<li data-date="{i["date"].isoformat()}"><a href="{esc(i["link"])}" rel="noopener">{esc(i["title"])}</a>'
         f'<span>{esc(i["source"])}{" · " + nice(i["date"].isoformat()) if i["date"] else ""}</span></li>'
         for i in items[:limit])
     names = ", ".join(f'<a href="{esc(_safe_url(s.get("home_url")) or _safe_url(s["feed_url"]))}" rel="noopener">{esc(s["name"])}</a>' for s in on)
-    if not rows:
+    if not rows and len(failed) == len(on):
         rows = f'<li class="hu-feed__empty">Couldn\'t load the latest headlines just now. Check {names} directly.</li>'
+    elif not rows:
+        rows = (f'<li class="hu-feed__empty">No new headlines in the last {max_age} days. '
+                f'Check {names} directly for older warnings.</li>')
     try:
         now, zone = datetime.now(ZoneInfo("Europe/London")), "UK time"
     except Exception:
@@ -212,9 +219,9 @@ def render_feed(fetch=fetch_feed):
             f'<p class="kicker">Straight from the testing services</p>'
             f'<h2 id="feed-title" class="display h-lg">Latest from testing services</h2>'
             f'<p class="muted"><span class="tag tag--cyan">Not yet reviewed by RaveSafe</span></p>'
-            f'<p class="muted">These are headlines published by {names}, shown as they are. We haven\'t checked or classified them yet. '
+            f'<p class="muted">These are the last {max_age} days of headlines from {names}, shown as they are. We haven\'t checked or classified them yet. '
             f'Tap through to read the full warning on their site.</p></div></div>'
-            f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="48">'
+            f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="48" data-feed-max-days="{max_age}">'
             f'<ul class="hu-feed">{rows}</ul>'
             f'<p class="hu-feed__stale panel" hidden>These headlines haven\'t updated for over 48 hours, so we\'ve hidden them in case they\'re out of date. '
             f'Check {names} directly for their latest warnings.</p>'
