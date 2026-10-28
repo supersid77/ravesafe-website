@@ -221,9 +221,9 @@ def render_feed(fetch=fetch_feed):
             f'<p class="muted"><span class="tag tag--cyan">Not yet reviewed by RaveSafe</span></p>'
             f'<p class="muted">These are the last {max_age} days of headlines from {names}, shown as they are. We haven\'t checked or classified them yet. '
             f'Tap through to read the full warning on their site.</p></div></div>'
-            f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="48" data-feed-max-days="{max_age}">'
+            f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="96" data-feed-max-days="{max_age}">'
             f'<ul class="hu-feed">{rows}</ul>'
-            f'<p class="hu-feed__stale panel" hidden>These headlines haven\'t updated for over 48 hours, so we\'ve hidden them in case they\'re out of date. '
+            f'<p class="hu-feed__stale panel" hidden>These headlines haven\'t updated for over 4 days, so we\'ve hidden them in case they\'re out of date. '
             f'Check {names} directly for their latest warnings.</p>'
             f'<p class="note">Last checked {stamp}. All credit to the services who do the testing.</p></div></div></section>')
 

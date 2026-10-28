@@ -41,7 +41,9 @@ Categories are `alert`, `heads-up` and `one-to-watch`. Monitor items are interna
 
 **Automatic headlines (`data/source-feeds.json`)**
 
-Each source has `"enabled": false` until the SOP wording is approved and that service has agreed. Set it to `true` to show its latest headlines under "Latest from testing services", labelled as not yet reviewed. Only the headline, date, name and link are shown. If a feed is down, the site still builds and says so.
+Each source has `"enabled": false` until the SOP wording is approved and that service has agreed. Set it to `true` to show its latest headlines under "Latest from testing services", labelled as not yet reviewed. Only the headline, date, name and link are shown. If a feed is down, the site still builds and says so. Only headlines from the last 30 days show, and the list hides itself if it hasn't updated for 4 days.
+
+The site rebuilds every 3 days to fetch new headlines (`.github/workflows/headsup-rebuild.yml`, using the `NETLIFY_BUILD_HOOK` secret in GitHub). Each Netlify deploy uses 15 of the free plan's 300 monthly credits, so don't make it more frequent without upgrading.
 
 ## Free resource PDFs
 Put the PDFs in `downloads/` using the clean names the build lists (for example `parents-guide-ketamine.pdf`). Old WordPress PDF links redirect to the new names automatically.
