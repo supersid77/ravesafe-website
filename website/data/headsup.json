@@ -42,5 +42,134 @@
     ],
     "retired_reason": "Only for retired entries"
   },
-  "entries": []
+  "entries": [
+    {
+      "id": "HU-2026-0001",
+      "status": "approved",
+      "classification": "alert",
+      "title": "PMMA in pills sold as ecstasy, now found in the UK",
+      "summary": "Drug checking services in eight countries, including the UK, have found PMMA in pills sold as ecstasy (MDMA). It turns up on its own or mixed with MDMA. PMMA takes much longer to kick in, so people think the pill is weak and take more, which can be deadly.",
+      "sold_as": "Ecstasy (MDMA) pills",
+      "detected": [
+        "PMMA",
+        "PMMA with MDMA",
+        "in some samples also ketamine, caffeine or amphetamine"
+      ],
+      "evidence_type": "Laboratory-confirmed",
+      "testing_org": "Drug checking services across Europe, including WEDINOS (UK), compiled by the TEDI network",
+      "issuing_org": "TEDI network",
+      "source_url": "https://tedinetwork.org/warnings/",
+      "sample_ref": "TEDI MDMA adulteration warning, update 20 October 2026",
+      "source_date": "2026-10-20",
+      "location_label": "European",
+      "location_detail": "Austria, Belgium, Germany, Italy, the Netherlands, Spain, Switzerland and the United Kingdom. Logos seen so far: Trump, Red Bull, Club 555, Donkey Kong / Gorilla, Hulk, Abarth, Mitsubishi. The UK pill was grey with a Trump logo, stamped \"280mg\" (a marking, not the dose).",
+      "original_warning_level": "Highest level warning issued by Trimbos (Netherlands), late August 2026",
+      "trend_status": "Repeated",
+      "why_classified": "Several labs in eight countries have confirmed it, including in the UK. PMMA has caused deaths in Europe before, and the danger comes from re-dosing when the pill seems weak. That's why we've made it an Alert.",
+      "uncertainty": "We don't know how widespread it is in the UK yet. A pill's look tells you nothing about what's in it: the same logo can contain different things.",
+      "advice": [
+        "Get your pills tested before you take them. In the UK you can post a sample to WEDINOS.",
+        "If a pill feels weak or slow, don't take more. PMMA can take up to 3 hours to fully kick in.",
+        "Home reagent tests can miss PMMA when MDMA is also in the pill.",
+        "Watch for overheating, a very fast pulse, muscle stiffness, confusion or fitting. Call 999 straight away if you see them.",
+        "Don't use alone, and look out for your mates."
+      ],
+      "reviewed_date": "2026-10-29",
+      "approved_by": "Sid",
+      "approved_at": "2026-10-29 15:21",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "change": "Approved by Sid"
+        }
+      ]
+    },
+    {
+      "id": "HU-2026-0002",
+      "status": "approved",
+      "classification": "heads-up",
+      "title": "Fake mephedrone: 4-CMC sold as 4-MMC and 3-MMC in Europe",
+      "summary": "Drug checking services in Vienna, Berlin and Ljubljana keep finding 4-CMC and other little-known cathinones in powder sold as mephedrone (4-MMC) or 3-MMC. Some samples had no mephedrone in at all.",
+      "sold_as": "Mephedrone (4-MMC) or 3-MMC",
+      "detected": [
+        "4-CMC",
+        "4-BEC",
+        "2-MMC",
+        "N-ethylpentedrone (NEP)",
+        "unknown substances"
+      ],
+      "evidence_type": "Laboratory-confirmed",
+      "testing_org": "checkit! (Vienna), drugchecking.berlin, DrogArt (Slovenia)",
+      "issuing_org": "",
+      "source_url": "https://drugchecking.berlin/aktuelle-warnungen",
+      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026",
+      "source_date": "2026-10-19",
+      "location_label": "European",
+      "location_detail": "Vienna (Austria), Berlin (Germany) and Ljubljana (Slovenia). Not found in UK results so far.",
+      "original_warning_level": "",
+      "trend_status": "Established",
+      "why_classified": "Three labs have confirmed it again and again through 2026. These substitutes are much less researched than mephedrone, and 4-CMC is suspected of damaging nerve cells. We haven't seen it in UK results, so it's a Heads Up rather than an Alert.",
+      "uncertainty": "We don't know if it's in the UK. We can't say how much of the mephedrone on sale is affected.",
+      "advice": [
+        "Get it tested if you can.",
+        "If it looks, smells or feels different from what you expect, don't take more.",
+        "Start with a small amount and wait.",
+        "Don't mix with alcohol or other stimulants.",
+        "If someone overheats, has chest pain or a very fast heartbeat, call 999."
+      ],
+      "reviewed_date": "2026-10-29",
+      "approved_by": "Sid",
+      "approved_at": "2026-10-29 15:21",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "change": "Approved by Sid"
+        }
+      ]
+    },
+    {
+      "id": "HU-2026-0003",
+      "status": "approved",
+      "classification": "heads-up",
+      "title": "Synthetic cannabinoids found in cannabis, CBD and THC vapes",
+      "summary": "Drug checking services in Austria, Germany and Slovenia keep finding synthetic cannabinoids in products sold as cannabis, CBD cannabis, hash, CBD chocolate and THC vape liquid. These chemicals are far stronger than THC.",
+      "sold_as": "Cannabis, CBD cannabis, hash, THC vape liquid, HHC",
+      "detected": [
+        "MDMB-PINACA",
+        "MDMB-INACA",
+        "ADB-BUTINACA",
+        "ADB-HEXINACA",
+        "5F-MDMB-PINACA",
+        "other synthetic cannabinoids"
+      ],
+      "evidence_type": "Laboratory-confirmed",
+      "testing_org": "checkit! (Vienna), DrogArt (Slovenia), drugchecking.berlin",
+      "issuing_org": "",
+      "source_url": "https://checkit.wien/wp-content/uploads/2026/10/checkit_Warnungen_2026_KW41.pdf",
+      "sample_ref": "checkit! report KW41 2026 and earlier reports, DrogArt warnings 2026",
+      "source_date": "2026-10-23",
+      "location_label": "European",
+      "location_detail": "Vienna (Austria), Berlin (Germany), Ljubljana (Slovenia) and Czechia. Not found in UK results so far.",
+      "original_warning_level": "",
+      "trend_status": "Repeated",
+      "why_classified": "Labs in several countries have confirmed it again and again this year. Synthetic cannabinoids are many times stronger than THC and can cause collapse, seizures and psychosis, and people buying cannabis don't expect them. We haven't seen it in UK results, so it's a Heads Up.",
+      "uncertainty": "We don't know if any UK products are affected. A product's look, smell or packaging won't tell you.",
+      "advice": [
+        "Be wary of vapes, edibles and CBD products from unknown sellers.",
+        "If it hits much harder or faster than you expect, stop.",
+        "Start with a tiny amount and wait.",
+        "Don't use alone.",
+        "If someone collapses, fits, can't be woken or struggles to breathe, call 999 and put them in the recovery position if they're breathing."
+      ],
+      "reviewed_date": "2026-10-29",
+      "approved_by": "Sid",
+      "approved_at": "2026-10-29 15:21",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "change": "Approved by Sid"
+        }
+      ]
+    }
+  ]
 }
