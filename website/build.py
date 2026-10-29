@@ -200,6 +200,7 @@ def build():
     shutil.copy(SRC / "site.js", DIST / "site.js")
     shutil.copytree(SRC / "fonts", DIST / "fonts")
     logo = photo("ravesafe-unicorn", "logo", "brand__logo")
+    misk_photo = re.sub(r'alt="[^"]*"', 'alt=""', photo("miss-k", "small", "misk-chat__img"))
     build_icons()
     build_audio()
     if DL_ORIG.exists():
@@ -217,6 +218,7 @@ def build():
                 .replace("{{ description }}", html.escape(meta["description"]))
                 .replace("{{ canonical }}", SITE_URL + path)
                 .replace("{{ logo }}", logo)
+                .replace("{{ misk_photo }}", misk_photo)
                 .replace("{{ robots }}", '<meta name="robots" content="noindex">\n' if meta.get("robots") == "noindex" else ""))
         # Mark the current page in the menu
         page = page.replace(f'data-nav href="{path}"', f'data-nav href="{path}" aria-current="page"')

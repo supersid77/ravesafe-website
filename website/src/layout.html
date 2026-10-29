@@ -112,5 +112,21 @@
     </div>
   </div>
 </footer>
+
+<div class="misk-chat" data-misk>
+  <div class="misk-chat__panel panel" id="misk-panel" role="dialog" aria-labelledby="misk-panel-title" hidden>
+    <button class="misk-chat__close" type="button" data-misk-close aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <h2 id="misk-panel-title">Chat with Miss K</h2>
+    <p>Miss K is an AI chat, not a person. She can help with harm reduction questions, but she isn't medical advice and nobody is watching the chat.</p>
+    <p class="misk-chat__urgent"><strong>If someone is in danger, call <a href="tel:999">999</a>.</strong></p>
+    <p class="note">The chat is run by Chatbase. What you type is sent to them to write Miss K's replies. Please don't share names or personal details. <a href="/privacy-policy/#share">Privacy policy</a></p>
+    <button class="btn btn--lime" type="button" data-misk-start>Start chat</button>
+  </div>
+  <button class="misk-chat__btn" type="button" aria-label="Ask Miss K" data-misk-open aria-expanded="false" aria-controls="misk-panel">
+    {{ misk_photo }}<span>Ask Miss K</span>
+  </button>
+</div>
 </body>
 </html>

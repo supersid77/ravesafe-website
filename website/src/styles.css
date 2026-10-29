@@ -498,3 +498,19 @@ fieldset.field legend { font-size: 14px; font-weight: 700; margin-bottom: 8px; p
   .brand__name { display: block; font-size: 19px; }
   .brand__name span { font-size: 8.5px; letter-spacing: .26em; }
 }
+
+/* ---------- Miss K chat button ---------- */
+.misk-chat { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 60; display: grid; justify-items: end; gap: 12px; }
+.misk-chat__btn { display: inline-flex; align-items: center; gap: 10px; padding: 6px 18px 6px 6px; border-radius: 999px; border: 2px solid var(--lime); background: var(--night); color: var(--white); font: inherit; font-weight: 700; font-size: 15px; cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,.45); }
+.misk-chat__btn:hover { background: var(--panel); }
+.misk-chat__btn:focus-visible, .misk-chat__close:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+.misk-chat__img, .misk-chat__btn .ph { width: 44px; height: 44px; border-radius: 999px; object-fit: cover; object-position: center 15%; flex: none; }
+.misk-chat__btn .ph .ph__label, .misk-chat__btn .ph .ph__file { display: none; }
+.misk-chat.is-loading .misk-chat__btn span::after { content: "…"; }
+.misk-chat__panel { position: relative; width: min(340px, calc(100vw - 32px)); display: grid; gap: 10px; border-top: 3px solid var(--lime); box-shadow: 0 12px 32px rgba(0,0,0,.5); }
+.misk-chat__panel h2 { font-family: var(--font-head); font-weight: 400; font-size: 26px; text-transform: uppercase; line-height: 1.05; padding-right: 32px; }
+.misk-chat__panel p { color: var(--soft); font-size: 15px; }
+.misk-chat__urgent { color: var(--white) !important; }
+.misk-chat__close { position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 999px; border: 1px solid var(--line-strong); background: transparent; color: var(--white); cursor: pointer; }
+@media (max-width: 480px) { .misk-chat__btn span { display: none; } .misk-chat__btn { padding: 4px; } }
+@media print { .misk-chat { display: none; } }

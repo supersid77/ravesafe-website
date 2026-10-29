@@ -261,3 +261,62 @@ document.querySelectorAll('form[data-web3form]').forEach(function (form) {
       });
   });
 });
+
+// Miss K chat (Chatbase). Nothing loads from Chatbase until someone taps "Start chat".
+(function () {
+  var box = document.querySelector('[data-misk]');
+  if (!box) return;
+  var CHATBOT_ID = 'ByvA7SXXqtjHJ8e75F1wN';
+  var openBtn = box.querySelector('[data-misk-open]');
+  var panel = box.querySelector('#misk-panel');
+  var seen = false;
+  try { seen = sessionStorage.getItem('misk-ok') === '1'; } catch (e) {}
+
+  function showPanel(show) {
+    panel.hidden = !show;
+    openBtn.setAttribute('aria-expanded', show ? 'true' : 'false');
+    if (show) panel.querySelector('[data-misk-start]').focus();
+  }
+
+  function startChat() {
+    try { sessionStorage.setItem('misk-ok', '1'); } catch (e) {}
+    panel.hidden = true;
+    box.classList.add('is-loading');
+    if (!window.chatbase || window.chatbase('getState') !== 'initialized') {
+      window.chatbase = function () {
+        if (!window.chatbase.q) window.chatbase.q = [];
+        window.chatbase.q.push(arguments);
+      };
+      window.chatbase = new Proxy(window.chatbase, {
+        get: function (target, prop) {
+          if (prop === 'q') return target.q;
+          return function () { return target.apply(null, [prop].concat([].slice.call(arguments))); };
+        }
+      });
+    }
+    var s = document.createElement('script');
+    s.src = 'https://www.chatbase.co/embed.min.js';
+    s.id = CHATBOT_ID;
+    s.domain = 'www.chatbase.co';
+    s.onload = function () {
+      box.hidden = true; // Chatbase shows its own chat bubble from here
+      try { window.chatbase('open'); } catch (e) {}
+    };
+    s.onerror = function () {
+      box.classList.remove('is-loading');
+      panel.hidden = false;
+      panel.querySelector('[data-misk-start]').textContent = "Couldn't load the chat. Try again";
+    };
+    document.body.appendChild(s);
+  }
+
+  openBtn.addEventListener('click', function () {
+    if (seen) { startChat(); return; }
+    showPanel(panel.hidden);
+  });
+  box.querySelector('[data-misk-start]').addEventListener('click', startChat);
+  box.querySelector('[data-misk-close]').addEventListener('click', function () { showPanel(false); openBtn.focus(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !panel.hidden) { showPanel(false); openBtn.focus(); }
+  });
+})();
