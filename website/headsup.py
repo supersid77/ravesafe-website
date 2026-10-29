@@ -219,7 +219,40 @@ def fetch_checkit(src, limit):
     return items
 
 
-FETCHERS = {"rss": fetch_rss, "checkit": fetch_checkit}
+def fetch_wp_json(src, limit):
+    """A WordPress REST list (e.g. DrogArt's warnings), newest first."""
+    items = []
+    for r in json.loads(_get(src["feed_url"]))[:limit]:
+        title = html.unescape(re.sub(r"<[^>]+>", "", r.get("title", {}).get("rendered", ""))).strip()
+        link = _safe_url(r.get("link"))
+        when = _iso(r.get("date", ""))
+        if title and link:
+            items.append(_item(src, title, link, when))
+    return items
+
+
+def fetch_berlin(src, limit):
+    """drugchecking.berlin lists its warnings as pictures titled "What, 20.10.2026 (Berlin)"."""
+    page = _get(src["feed_url"]).decode("utf-8", "replace")
+    items, seen = [], set()
+    for alt in re.findall(r'<p class="py-2 uk-text-center">(.*?)</p>', page):
+        alt = html.unescape(re.sub(r"<[^>]+>", "", alt)).strip()
+        m = re.search(r"^(.*?),\s*(\d{1,2})\.(\d{1,2})\.(\d{4})\s*(?:\((.*?)\))?$", alt)
+        if not m or alt in seen:
+            continue
+        seen.add(alt)
+        try:
+            when = date(int(m.group(4)), int(m.group(3)), int(m.group(2)))
+        except ValueError:
+            continue
+        title = m.group(1) + (f" ({m.group(5)})" if m.group(5) else "")
+        items.append(_item(src, title, _safe_url(src.get("home_url")) or src["feed_url"], when))
+        if len(items) >= limit:
+            break
+    return items
+
+
+FETCHERS = {"rss": fetch_rss, "checkit": fetch_checkit, "wp_json": fetch_wp_json, "berlin": fetch_berlin}
 
 
 def fetch_feed(src, limit):
@@ -255,6 +288,14 @@ def render_feed(fetch=fetch_feed):
     cutoff = date.today().toordinal() - max_age
     items = [i for i in items if i["date"] and i["date"].toordinal() >= cutoff]
     items.sort(key=lambda i: i["date"], reverse=True)
+    # Keep a mix: no more than a few headlines from any one service
+    cap, per = int(cfg.get("per_source_max", 4)), {}
+    kept = []
+    for i in items:
+        per[i["source"]] = per.get(i["source"], 0) + 1
+        if per[i["source"]] <= cap:
+            kept.append(i)
+    items = kept
     def row(i):
         lang = i["lang"] if re.match(r"^[a-z]{2}$", i["lang"]) else "en"
         tag = f' · in {esc(i["language"])}' if lang != "en" and i["language"] else ""

@@ -18,7 +18,7 @@ Point 7 changed from 48 hours to 4 days, approved by Sid on 28 October 2026 at 1
 ## Settings
 
 - Only headlines from the last 30 days are shown (decided by Sid, 28 Oct 2026). Older or undated headlines are left out.
-- Up to 10 headlines at a time.
+- Up to 12 headlines at a time, and no more than 4 from any one service so the list stays a mix.
 - Headlines in other languages are shown in the original language, labelled with the language, as point 2 says nothing is reworded. Added 29 Oct 2026 because European services often spot dangerous batches before they reach the UK.
 - The site rebuilds every 3 days to fetch new headlines (GitHub Actions and a Netlify build hook). Chosen to stay within Netlify's free plan. Live alerts are covered on RaveSafe's socials.
 
@@ -31,3 +31,6 @@ Point 7 changed from 48 hours to 4 days, approved by Sid on 28 October 2026 at 1
 | The Loop (UK) | Okay received by Sid, 28 Oct 2026 (written copy to be filed) | Yes, Sid, 28 Oct 2026 19:38 | Yes |
 | Energy Control (Spain, Spanish headlines) | Not needed for headlines (point 4 amended). RaveSafe working with them | Yes, Sid, 29 Oct 2026 11:05 | Yes |
 | checkit! (Vienna, German headlines) | Not needed for headlines (point 4 amended). RaveSafe working with them | Yes, Sid, 29 Oct 2026 11:05 | Yes |
+| drugchecking.berlin (Germany, German headlines) | Not needed (point 4) | Yes, Sid, 29 Oct 2026 13:39 | Yes |
+| DrogArt (Slovenia, Slovenian headlines, warnings only) | Not needed (point 4) | Yes, Sid, 29 Oct 2026 13:39 | Yes |
+| Modus Vivendi (Belgium, French headlines, early warnings only) | Not needed (point 4) | Yes, Sid, 29 Oct 2026 13:39 | Yes |

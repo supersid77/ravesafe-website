@@ -1,7 +1,8 @@
 {
   "_read_me": "Automatic headlines from drug checking services (SOP section 9a, approved by Sid 28 Oct 2026, point 4 amended 29 Oct 2026). A source can be switched on (enabled: true) with approval from Sid or Jimmy. Tell the service, and switch it off straight away if it asks. We only ever show their headline, date, name and link. Only headlines from the last 30 days show (max_age_days). The list hides itself if it hasn't updated for 4 days. enabled: \"preview\" shows a source on the netlify.app test site only.",
-  "_sources_help": "type: rss (default) or checkit. lang_code is the two-letter language of the headlines (en, es, de). language is shown to visitors when it isn't English.",
-  "show_max": 10,
+  "_sources_help": "type: rss (default), checkit, wp_json (a WordPress REST list) or berlin. lang_code is the two-letter language of the headlines (en, es, de, sl, fr). language is shown to visitors when it isn't English.",
+  "show_max": 12,
+  "per_source_max": 4,
   "max_age_days": 30,
   "sources": [
     {
@@ -39,6 +40,42 @@
       "enabled": true,
       "permission": "Not needed for headline and link (SOP 9a point 4 amended by Sid, 29 Oct 2026). RaveSafe is working with them",
       "switched_on": "Approved by Sid, 29 Oct 2026 11:05"
+    },
+    {
+      "name": "drugchecking.berlin",
+      "country": "Germany (Berlin)",
+      "language": "German",
+      "lang_code": "de",
+      "type": "berlin",
+      "feed_url": "https://drugchecking.berlin/aktuelle-warnungen",
+      "home_url": "https://drugchecking.berlin/aktuelle-warnungen",
+      "enabled": true,
+      "permission": "Not needed for headlines (SOP 9a point 4 amended by Sid, 29 Oct 2026)",
+      "switched_on": "Approved by Sid, 29 Oct 2026 13:39"
+    },
+    {
+      "name": "DrogArt",
+      "country": "Slovenia",
+      "language": "Slovenian",
+      "lang_code": "sl",
+      "type": "wp_json",
+      "feed_url": "https://www.drogart.org/wp-json/wp/v2/results?results_category=37&per_page=20&_fields=date,link,title",
+      "home_url": "https://www.drogart.org/rezultati-in-opozorila/",
+      "enabled": true,
+      "permission": "Not needed for headlines (SOP 9a point 4 amended by Sid, 29 Oct 2026)",
+      "switched_on": "Approved by Sid, 29 Oct 2026 13:39"
+    },
+    {
+      "name": "Modus Vivendi",
+      "country": "Belgium",
+      "language": "French",
+      "lang_code": "fr",
+      "type": "rss",
+      "feed_url": "https://modusvivendi-be.org/tag/alerte-precoce/feed/",
+      "home_url": "https://modusvivendi-be.org/",
+      "enabled": true,
+      "permission": "Not needed for headlines (SOP 9a point 4 amended by Sid, 29 Oct 2026)",
+      "switched_on": "Approved by Sid, 29 Oct 2026 13:39"
     }
   ]
 }
