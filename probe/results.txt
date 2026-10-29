@@ -1,0 +1,88 @@
+OK 200 https://www.wedinos.wales/sample/feed/
+   type=application/rss+xml; charset=UTF-8 bytes=5093 items=10 feeds=[]
+   titles=['Samples - WEDINOS - Welsh Emerging Drugs and Identification of Novel Substances Project', 'Samples - WEDINOS - Welsh Emerging Drugs and Identification of Novel Substances Project', 'W106245', 'W106242']
+   dates=['Tue, 27 Oct 2026 14:47:16 +0000', 'Tue, 27 Oct 2026 14:47:14 +0000']
+OK 200 https://www.wedinos.wales/wp-json/wp/v2/sample?per_page=3
+   type=application/json; charset=UTF-8 bytes=33235 items=0 feeds=[]
+   titles=[]
+   dates=[]
+   json: [{"id":32690,"date":"2026-10-27T14:47:16","date_gmt":"2026-10-27T14:47:16","guid":{"rendered":"https:\/\/wedinos.wales\/sample\/w106245\/"},"modified":"2026-10-27T14:47:16","modified_gmt":"2026-10-27T14:47:16","slug":"w106245","status":"publish","type":"sample","link":"https:\/\/wedinos.wales\/sample\/w106245\/","title":{"rendered":"W106245"},"excerpt":{"rendered":"","protected":false},"author":79,"featured_media":32691,"parent":0,"menu_order":0,"template":"","meta":{"_acf_changed":false},"class_list":["post-32690","sample","type-sample","status-publish","has-post-thumbnail","hentry"],"acf":[]
+OK 200 https://www.wedinos.wales/wp-json/wp/v2/alert?per_page=3
+   type=application/json; charset=UTF-8 bytes=23114 items=0 feeds=[]
+   titles=[]
+   dates=[]
+   json: [{"id":30173,"date":"2026-10-12T10:08:32","date_gmt":"2026-10-12T09:08:32","guid":{"rendered":"https:\/\/wedinos.wales\/?post_type=alert&#038;p=30173"},"modified":"2026-10-12T10:08:32","modified_gmt":"2026-10-12T09:08:32","slug":"september-turnaround-time","status":"publish","type":"alert","link":"https:\/\/wedinos.wales\/alert\/september-turnaround-time\/","title":{"rendered":"September turnaround time"},"author":70,"template":"","meta":{"_acf_changed":false},"class_list":["post-30173","alert","type-alert","status-publish","hentry"],"acf":[],"aioseo_notices":[],"aioseo_head":"\n\t\t<!-- All i
+OK 200 https://www.wedinos.wales/feed/
+   type=application/rss+xml; charset=UTF-8 bytes=1128 items=0 feeds=[]
+   titles=['WEDINOS &#8211; Welsh Emerging Drugs and Identification of Novel Substances Project', 'WEDINOS &#8211; Welsh Emerging Drugs and Identification of Novel Substances Project']
+   dates=[]
+OK 200 https://www.wearetheloop.org/drug-alerts-full?format=rss
+   type=application/rss+xml; charset=UTF-8 bytes=61151 items=17 feeds=[]
+   titles=['', '2026 MDMA Pill Update', 'Cathinones tested by The Loop London Drug Checking Services 2026', "CAUTION: High strength 'Dior' &amp; 'Pop Smoke' pills in circulation, Parklife 2025."]
+   dates=['Sun, 21 Jun 2026 14:44:56 +0000', 'Fri, 29 May 2026 15:00:03 +0000']
+OK 200 https://www.mandrake.org.uk/
+   type=text/html bytes=152 items=0 feeds=[]
+   titles=['The Cambridge BOFHs Home Page']
+   dates=[]
+OK 200 https://www.saferparty.ch/warnungen
+   type=text/html; charset=utf-8 bytes=52133 items=0 feeds=[]
+   titles=['Warnungen']
+   dates=[]
+FAIL https://www.saferparty.ch/feed HTTPError: HTTP Error 404: Not Found
+FAIL https://www.saferparty.ch/rss.xml HTTPError: HTTP Error 404: Not Found
+OK 200 https://checkit.wien/drug-checking-ergebnisse/
+   type=text/html; charset=UTF-8 bytes=70217 items=0 feeds=[]
+   titles=['Drug Checking Ergebnisse - checkit!']
+   dates=[]
+OK 200 https://checkit.wien/feed/
+   type=text/html; charset=UTF-8 bytes=57709 items=0 feeds=[]
+   titles=['checkit! Kompetenzzentrum für Freizeitdrogen\xa0\xa0']
+   dates=[]
+OK 200 https://energycontrol-international.org/
+   type=text/html; charset=UTF-8 bytes=259404 items=0 feeds=['https://energycontrol-international.org/feed/']
+   titles=['Home - International Energy Control']
+   dates=[]
+OK 200 https://energycontrol.org/alertas/
+   type=text/html; charset=UTF-8 bytes=340951 items=0 feeds=['https://energycontrol.org/alertas/feed/']
+   titles=['Alertas - Energy Control']
+   dates=[]
+OK 200 https://energycontrol.org/feed/
+   type=application/rss+xml; charset=UTF-8 bytes=112667 items=10 feeds=[]
+   titles=['Energy Control', 'Energy Control', 'Mujeres y drogas: el hueco que la ciencia (y la cultura) llevan décadas sin llenar', '¿Qué hace que una fiesta sea un buen lugar para estar?']
+   dates=['Tue, 13 Oct 2026 09:44:09 +0000', 'Tue, 22 Sep 2026 08:14:33 +0000']
+OK 200 https://www.tedinetwork.org/
+   type=text/html; charset=UTF-8 bytes=229158 items=0 feeds=['https://tedinetwork.org/feed/']
+   titles=['TEDI &#8211; Trans-European Drug Information project']
+   dates=[]
+OK 200 https://www.drugsdata.org/
+   type=text/html; charset=utf-8 bytes=134982 items=0 feeds=[]
+   titles=['DrugsData.org: Lab Analysis / Drug Checking for Recreational Drugs']
+   dates=[]
+FAIL https://www.drugsdata.org/rss.php HTTPError: HTTP Error 404: Not Found
+OK 200 https://www.drugsdata.org/results.php
+   type=text/html; charset=iso-8859-1 bytes=291093 items=0 feeds=[]
+   titles=['DrugsData.org: Test Results']
+   dates=[]
+OK 200 https://www.trimbos.nl/
+   type=text/html; charset=UTF-8 bytes=386999 items=0 feeds=['https://www.trimbos.nl/comments/feed/', 'https://www.trimbos.nl/feed/']
+   titles=['Voor mentale gezondheid - Trimbos-instituut']
+   dates=[]
+FAIL https://www.publichealthscotland.scot/our-areas-of-work/substance-use/surveillance/radar/ HTTPError: HTTP Error 404: Not Found
+OK 200 https://www.crew.scot/drug-checking/
+   type=text/html; charset=UTF-8 bytes=191197 items=0 feeds=['https://www.crew.scot/comments/feed/', 'https://www.crew.scot/drug-checking-blog-0621/feed/', 'https://www.crew.scot/feed/']
+   titles=['BLOG: What is Drug Checking?']
+   dates=[]
+OK 200 https://www.crew.scot/feed/
+   type=application/rss+xml; charset=UTF-8 bytes=102152 items=10 feeds=[]
+   titles=['Crew 2000', 'Crew 2000', 'Summary Report 2024-25', 'Benzo Research Project']
+   dates=['Tue, 22 Sep 2026 12:30:16 +0000', 'Tue, 03 Feb 2026 11:18:05 +0000']
+FAIL https://drugchecking.cdpcs.org/ URLError: <urlopen error [Errno -2] Name or service not known>
+OK 200 https://www.euda.europa.eu/news_en
+   type=text/html; charset=utf-8 bytes=289286 items=0 feeds=[]
+   titles=['Search for news | The European Union Drugs Agency (EUDA)']
+   dates=[]
+OK 200 https://knowyourstuff.nz/
+   type=text/html; charset=UTF-8 bytes=319966 items=0 feeds=['https://knowyourstuff.nz/comments/feed/', 'https://knowyourstuff.nz/feed/']
+   titles=['KnowYourStuffNZ', 'Accessibility Tools', 'Increase Text', 'Decrease Text']
+   dates=[]
+FAIL https://www.drugchecking.org.uk/ URLError: <urlopen error [Errno -2] Name or service not known>
