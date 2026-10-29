@@ -1,5 +1,5 @@
 {
-  "_read_me": "Automatic headlines from drug checking services (SOP section 9a, approved by Sid 28 Oct 2026, point 4 amended 29 Oct 2026). A source can be switched on (enabled: true) with approval from Sid or Jimmy. Tell the service, and switch it off straight away if it asks. We only ever show their headline, date, name and link. Using their data beyond that (such as a data log) needs written permission. Only headlines from the last 30 days show (max_age_days). The list hides itself if it hasn't updated for 4 days. enabled: \"preview\" shows a source on the netlify.app test site only.",
+  "_read_me": "Automatic headlines from drug checking services (SOP section 9a, approved by Sid 28 Oct 2026, point 4 amended 29 Oct 2026). A source can be switched on (enabled: true) with approval from Sid or Jimmy. Tell the service, and switch it off straight away if it asks. We only ever show their headline, date, name and link. Only headlines from the last 30 days show (max_age_days). The list hides itself if it hasn't updated for 4 days. enabled: \"preview\" shows a source on the netlify.app test site only.",
   "_sources_help": "type: rss (default) or checkit. lang_code is the two-letter language of the headlines (en, es, de). language is shown to visitors when it isn't English.",
   "show_max": 10,
   "max_age_days": 30,
