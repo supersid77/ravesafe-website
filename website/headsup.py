@@ -278,6 +278,8 @@ def render_feed(fetch=fetch_feed):
         f'{". Headlines in " + esc(x["language"]) if x.get("language") and x.get("lang_code", "en") != "en" else ""}</li>'
         for x in on)
     europe = any(x.get("country", "UK") != "UK" for x in on)
+    blocked = ('<p class="note">Link won\'t open on mobile data? Some UK mobile networks block harm reduction sites. '
+               'Try Wi-Fi, or tap Read in English, which opens the page through Google.</p>') if europe else ""
     where = "around Europe" if europe else "in the UK"
     early = ('<p class="muted">Dangerous batches are often spotted in Europe before they reach the UK, '
              'so these can be an early warning of what\'s coming.</p>') if europe else ""
@@ -298,7 +300,8 @@ def render_feed(fetch=fetch_feed):
             f'<ul class="hu-feed">{rows}</ul>'
             f'<p class="hu-feed__stale panel" hidden>These headlines haven\'t updated for over 4 days, so we\'ve hidden them in case they\'re out of date. '
             f'Check {names} directly for their latest warnings.</p>'
-            f'<p class="note">Last checked {stamp}. All credit to the services who do the testing.</p></div>'
+            f'<p class="note">Last checked {stamp}. All credit to the services who do the testing.</p>'
+            f'{blocked}</div>'
             f'<details class="hu-sources"><summary>Where these headlines come from</summary><ul class="ticks">{sources}</ul></details>'
             f'</div></section>')
 
