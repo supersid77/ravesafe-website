@@ -1,5 +1,7 @@
 name: Feed probe (one-off check)
-on: [workflow_dispatch]
+on:
+  push:
+    branches: [feed-probe]
 jobs:
   probe:
     runs-on: ubuntu-latest
