@@ -300,7 +300,15 @@ document.querySelectorAll('form[data-web3form]').forEach(function (form) {
     s.domain = 'www.chatbase.co';
     s.onload = function () {
       box.hidden = true; // Chatbase shows its own chat bubble from here
-      try { window.chatbase('open'); } catch (e) {}
+      // Open the chat as soon as Chatbase says it's ready (give up after 8 seconds)
+      var tries = 0;
+      var wait = setInterval(function () {
+        tries++;
+        var ready = false;
+        try { ready = window.chatbase('getState') === 'initialized'; } catch (e) {}
+        if (ready) { clearInterval(wait); try { window.chatbase.open(); } catch (e) {} }
+        else if (tries > 40) clearInterval(wait);
+      }, 200);
     };
     s.onerror = function () {
       box.classList.remove('is-loading');
