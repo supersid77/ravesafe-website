@@ -1,11 +1,71 @@
-Mozilla/5.0 (RaveSafe feed check; +https | nos.wales/sample/w106245/ | ('30173', 'September turnaround time', 'Not stated') | cache: None
-Mozilla/5.0 (RaveSafe feed check; +https | nos.wales/sample/w106374/ | ('30173', 'September turnaround time', 'Not stated') | cache: None
-Mozilla/5.0 (RaveSafe feed check; +https | nos.wales/sample/w106374/ | ('30173', 'September turnaround time', 'Not stated') | cache: 1
-Mozilla/5.0 (compatible; RaveSafe Commun | nos.wales/sample/w106245/ | ('30173', 'September turnaround time', 'Not stated') | cache: 5
-Mozilla/5.0 (compatible; RaveSafe Commun | nos.wales/sample/w106374/ | ('30173', 'September turnaround time', 'Not stated') | cache: 3
-Mozilla/5.0 (compatible; RaveSafe Commun | nos.wales/sample/w106374/ | ('30173', 'September turnaround time', 'Not stated') | cache: 5
-Mozilla/5.0 (Windows NT 10.0; Win64; x64 | nos.wales/sample/w106245/ | ('30173', 'September turnaround time', 'Not stated') | cache: 9
-Mozilla/5.0 (Windows NT 10.0; Win64; x64 | nos.wales/sample/w106374/ | ('30173', 'September turnaround time', 'Not stated') | cache: 7
-Mozilla/5.0 (Windows NT 10.0; Win64; x64 | nos.wales/sample/w106374/ | ('30173', 'September turnaround time', 'Not stated') | cache: 8
-=== endpoints on /sample/: ['action":"wp_statistics_online_check', 'admin-ajax.php', 'admin-ajax.php?action=wp_statistics_custom_event&nonce=afbfdc9013', 'wp-json/wp-statistics/v2']
-=== forms: ['<form class="nhsuk__search-form nhsuk__search-form--wedinos nhsuk-u-margin-bottom-6" onsubmit="return false">']
+
+===== Saferparty warnings page https://www.saferparty.ch/warnungen
+type text/html; charset=utf-8 bytes 52133
+api-like urls: ['https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', 'https://fonts.googleapis.com', 'https://www.google.com/recaptcha/api.js']
+ Warnungen Beratung Drug Checking Warnungen Substanzen Warnungen 
+
+===== Saferparty next data https://www.saferparty.ch/_next/data
+ERR HTTP Error 404: Not Found
+saferparty scripts: ['https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', 'https://www.google.com/recaptcha/api.js', 'https://cdn.weglot.com/weglot.min.js', 'https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmscombine@1/cmscombine.js', 'https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js', 'https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js', 'https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js', 'https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsnest@1/cmsnest.js', 'https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=610d1a3f66cce11c4268429a', 'https://cdn.prod.website-files.com/610d1a3f66cce11c4268429a/js/saferparty.schunk.b36de0610a35aa79.js', 'https://cdn.prod.website-files.com/610d1a3f66cce11c4268429a/js/saferparty.schunk.bab991d1bcb239c2.js', 'https://cdn.prod.website-files.com/610d1a3f66cce11c4268429a/js/saferparty.a663f81e.3d9bc2dabf5a6ec5.js', 'https://cdn.weglot.com/weglot.min.js', 'https://cdn.jsdelivr.net/npm/typed.js@2.0.9', 'https://cdn.jsdelivr.net/npm/@finsweet/cms-library@1/cms-library.js']
+saferparty __NEXT_DATA__: False  nuxt: False
+
+===== Infodrog warnings https://www.infodrog.ch/de/aktivitaeten/safer-nightlife/warnungen.html
+ERR HTTP Error 404: Not Found
+
+===== Infodrog warnings (fr) https://www.infodrog.ch/fr/activites/safer-nightlife/alertes.html
+ERR HTTP Error 404: Not Found
+
+===== Rave it Safe Bern https://www.raveitsafe.ch/warnungen/
+type text/html; charset=UTF-8 bytes 44689
+api-like urls: ['https://api.w.org/', 'https://apis.google.com/js/platform.js', 'https://www.raveitsafe.ch/wp-json/', 'https://www.raveitsafe.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.raveitsafe.ch%2Fwarnungen_national%2F', 'https://www.raveitsafe.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.raveitsafe.ch%2Fwarnungen_national%2F&#038;format=xml', 'https://www.raveitsafe.ch/wp-json/wp/v2/pages/5641']
+ Nationale Warnungen - raveitsafe You are using an outdated browser. Please upgrade your browser to improve your experience. CONTACT Stiftung für Suchthilfe CONTACT Arbeit CONTACT Nightlife Menu Menu News Angebote Über uns Angebot im Überblick Berichte und Auswertungen Partner Online-Beratung Standorte Suchen nach: Deutsch Français CONTACT:Talks 4 CONTACT:Talks – der Fachinput mit Apéro geht in die vierte Runde. Das Thema: Was wird in Bern konsumiert? Mehr Infos finden sich hier. CONTACT SPRECHSTUNDE Für Fragen im Zusammenhang mit dem Konsum von Kokain oder anderen Substanzen. Details finden sich hier. NEUE SCHULUNG Fokus auf hochpotente synthetische Opioide (Fentanyl, Nitazene und Co.). Mehr Informationen gibt es hier. Suchen nach: Nationale Warnungen Unsere Haltung Es gibt keinen Drogenkonsum ohne Risiko. Wer trotzdem Drogen konsumiert, sollte sich über Wirkungen und Risiken informieren, seine Konsummotive reflektieren, die Safer Use-Regeln beachten und sich bei Bedarf professionell beraten lassen. rave it safe ist ein Angebot von CONTACT Nightlife. Ordner Verbleibende Zeit - 0 KB / s 0 KB / 0 KB Alle Dateien 215 / Unorganisiert 78 Logos und Icons 17 01 Head Start 3840x2160 1 02 
+
+===== Drugchecking Berlin https://drugchecking.berlin/
+type text/html; charset=utf-8 bytes 64504
+ Neu in Berlin - Drug-Checking – drugchecking.berlin Du möchtest direkt zu den Zeiten der Probenannahme & Ergebnismitteilung ? >> Dann hier entlang. >> Oder lieber weiter zur Webseite ? Mobile Menu Toggle Mobile Menu Toggle Wir informieren neutral über psychoaktive Substanzen, Wirkungen, Nebenwirkungen und Risiken. Anonym, kostenlos und vertraulich. drugchecking.berlin - das Beratungs- und Testangebot zu psychoaktiven Substanzen Aufgrund hoher Nachfrage und begrenzter Kapazitäten werden zu Beginn der Sprechstunde Tickets an die Besucher*innen vergeben. Wir bitten um Verständnis. Achtung! Substanzwarnung: Warnung vor vermeintlichen THC-Gummibärchen in Berlin (Lebensgefahr). Hier gibt's weitere Infos. drugchecking - was ist das? Um Gesundheitsschäden zu vermeiden, führen wir chemische Analysen bewusstseins­verändernder Substanzen durch. Begleitend zu dem Testergebnis beraten wir dich fachgerecht. mehr Informationen aktuelle Warnungen Wir veröffentlichen auf dieser Homepage nur Analyse-Ergebnisse von Substanz-Proben, deren Konsum mit besonderen, über das übliche Maß hinausgehenden, Risiken einhergehen. mehr Warnungen Evaluation Das Berliner Drugchecking-Projekt wurde von der Charité B
+
+===== Drugchecking Berlin warnungen https://drugchecking.berlin/warnungen
+ERR HTTP Error 404: Not Found
+
+===== checkit PDF list (warnungen archive) https://checkit.wien/warnungen/
+type text/html; charset=UTF-8 bytes 73824
+api-like urls: ['https://checkit.wien/wp-json/wp-statistics/v2']
+ Warnungen Archive - checkit! Zum Hauptinhalt springen NEUIGKEITEN BERATUNG DRUG CHECKING CHECKIT! PEERS SUBSTANZINFOS FORSCHUNG ÜBER CHECKIT! HOMEBASE PLUS Suche Aktuelle Warnungen KW 41 - 2026 Mitte bis Ende September 2026 haben wir eine Reihe an gesundheitlich besonders bedenklichen Substanzen getestet. Mehrere als 4-MMC abgegebene Proben enthielten neben 4-MMC andere Substanzen wie alpha-PVP , 4-CMC oder 4-BEC. In einer vermeintlichen Ecstasy-Tablette wurde neben MDMA erneut der Wirkstoff PMMA analysiert. In zwei weiteren vermeintlichen Ecstasy-Tabletten wurde ausschließlich Koffein nachgewiesen. In einer Speed-Probe wurde neben Amphetamin auch Methamphetamin detektiert. In einer als Kokain abgegebenen Probe wurde ausschließlich eine unbekannte Substanz gefunden. In einer als LSD zur A
+
+===== Energy Control alert page https://energycontrol.org/alertas/alerta-en-espana-pmma-y-mdma-en-pastillas-vendidas-como-mdma/
+type text/html; charset=UTF-8 bytes 345585
+api-like urls: ['https://api.w.org/', 'https://energycontrol.org/wp-json/', 'https://energycontrol.org/wp-json/complianz/v1/', 'https://energycontrol.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fenergycontrol.org%2Falertas%2Falerta-en-espana-pmma-y-mdma-en-pastillas-vendidas-como-mdma%2F', 'https://energycontrol.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fenergycontrol.org%2Falertas%2Falerta-en-espana-pmma-y-mdma-en-pastillas-vendidas-como-mdma%2F&#038;format=xml', 'https://www.google.com/recaptcha/api.js?render=6LcNfBorAAAAAG8aeeSWwvd378TAWEBELpiysh59&#038;ver=3.0']
+ Alerta en España: PMMA y MDMA en pastillas vendidas como MDMA - Energy Control Estás utilizando un navegador obsoleto . Por favor actualiza tu navegador para mejorar tu experiencia. Energy Control Quiénes somos Reducción de riesgos Objetivos ¿Qué hacemos? Equipo Voluntariado Haz tu donación Proyectos Premios y reconocimientos Financiación Infodrogas Infodrogas Sustancias principales Adulterantes Nuevas Sustancias Psicoactivas (NPS) Leyes y drogas Tiempos de detección Vías de administración Dosis test Viajes difíciles ¿Buscas ayuda? Consultorio XXX Análisis Servicio de análisis Conoce las drogas que vas a tomar Técnicas analíticas ¿Qué técnicas analíticas utilizamos? Resultados Conoce las pastillas que analizamos Nuestros servicios de análisis Andalucía Cataluña Mallorca Madrid Otras CCAA Servicio internacional Habla con Energy Actualidad Blog Artículos de interés En los medios Archivo de apariciones en los medios de comunicación Notas de prensa Comunicados para medios de comunicación Desde dentro Novedades sobre Energy Control Recursos Artículos científicos Investigación y difusión de los resultados Guías Guías temáticas con recursos Materiales Archivo de materiales y recursos descargables Contacto Sustancia peligrosa Alerta en España: PMMA y MDMA en pastillas vendidas como MDMA Lugar Deep web Fecha 17/09/2026 Se vende como MDMA Recomendación No consumir. Ver todas las alertas Buscador Buscar resultados de análisis Inicio » Alertas » Alerta en España: PMMA y MDMA en pastilla
+
+===== Kosmicare https://www.kosmicare.org/
+type text/html; charset=utf-8 bytes 526098
+api-like urls: ['https://fonts.googleapis.com/css?family=Inter:400,400italic,500,600%7CFigtree:400,600,700,500&amp;subset=latin,vietnamese,khmer,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,cyrillic', 'https://fonts.googleapis.com/css?family=Inter:400,400italic,500,600%7CFigtree:400,600,700,500\\u0026subset=latin,vietnamese,khmer,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,cyrillic', 'https://www.youtube.com/iframe_api']
+ Kosmicare 
+
+===== Trimbos red alerts https://www.trimbos.nl/actueel/?s=waarschuwing
+type text/html; charset=UTF-8 bytes 351413
+api-like urls: ['https://api.w.org/', 'https://www.trimbos.nl/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.2.1', 'https://www.trimbos.nl/wp-json/', 'https://www.trimbos.nl/wp-json/wp/v2/categories/77']
+ : nieuws & blogs - Trimbos-instituut Trimbos sites Alcoholinfo.nl Ikstopnu.nl Drugsinfo.nl Digitalebalans.nl Mentaalvitaal.nl Digitale leeromgeving Meer websites English Vergroot lettertype Home Kennis Thema’s en doelgroepen Dossiers Feiten en cijfers Studies Aanbod Kennisbank Trainingen & E-learnings Webwinkel Actueel Nieuws Blog Agenda Nieuwsbrieven Over ons Over ons Organisatie Onafhankelijkheid Medewerkers Werken bij Contact Contact Contactformulier Vind een medewerker Media Publieksinforma
+
+===== TEDI feed https://tedinetwork.org/feed/
+type application/rss+xml; charset=UTF-8 bytes 1060
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TEDI</title>
+	<atom:link href="https://tedinetwork.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https
+
+===== Know Drugs https://knowdrugs.app/
+type text/html; charset=utf-8 bytes 282044
+ KnowDrugs App: Pill testing results & harm-reduction advice | KnowDrugs Select Page Pill alerts wherever you go Avoid bad ecstasy pills. Inform yourself about pill testing results and drug interactions and learn how to practice safer use. Drug Checking Results Avoid bad ecstasy pills KnowDrugs informs you about pill testing / drug testing results and helps you to avoid particularly dangerous batches. Get Started Substance Information Understand how drugs work Factsheets about more than 200 psyc
+
+===== Pill reports eu https://www.drugsandme.org/
+ERR <urlopen error [Errno -2] Name or service not known>
