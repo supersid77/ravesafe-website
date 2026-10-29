@@ -5,7 +5,7 @@ and time are shown. Drafts never appear. Retired entries go to the archive.
 If an approved entry is missing something the SOP says is mandatory, the build stops
 with a clear message rather than publishing a half-finished alert.
 """
-import html, json, re, sys
+import html, json, os, re, sys
 from datetime import date, datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -225,9 +225,20 @@ def fetch_feed(src, limit):
     return FETCHERS[src.get("type", "rss")](src, limit)
 
 
+def is_preview():
+    """True on the netlify.app test site and local builds. False once the real domain is live."""
+    url = os.environ.get("URL", "")
+    return not os.environ.get("NETLIFY") or "netlify.app" in url
+
+
+def shown(src):
+    # "preview" sources are waiting for permission: test site only, never the real domain (SOP 9a point 4)
+    return src.get("enabled") is True or (src.get("enabled") == "preview" and is_preview())
+
+
 def render_feed(fetch=fetch_feed):
     cfg = json.loads((ROOT / "data/source-feeds.json").read_text())
-    on = [s for s in cfg.get("sources", []) if s.get("enabled")]
+    on = [s for s in cfg.get("sources", []) if shown(s)]
     if not on:
         return ""  # lane switched off: nothing shows
     limit = int(cfg.get("show_max", 8))
@@ -261,7 +272,7 @@ def render_feed(fetch=fetch_feed):
         f'{". Headlines in " + esc(x["language"]) if x.get("language") and x.get("lang_code", "en") != "en" else ""}</li>'
         for x in on)
     europe = any(x.get("country", "UK") != "UK" for x in on)
-    where = "the UK and Europe" if europe else "the UK"
+    where = "around Europe" if europe else "in the UK"
     early = ('<p class="muted">Dangerous batches are often spotted in Europe before they reach the UK, '
              'so these can be an early warning of what\'s coming.</p>') if europe else ""
     try:
@@ -274,7 +285,7 @@ def render_feed(fetch=fetch_feed):
             f'<p class="kicker">Straight from the testing services</p>'
             f'<h2 id="feed-title" class="display h-lg">Latest from testing services</h2>'
             f'<p class="muted"><span class="tag tag--cyan">Not yet reviewed by RaveSafe</span></p>'
-            f'<p class="muted">These are the last {max_age} days of headlines from drug checking services in {where}, shown as they are. '
+            f'<p class="muted">These are the last {max_age} days of headlines from drug checking services {where}, shown as they are. '
             f'We haven\'t checked or classified them yet.{" Some are in the service\'s own language." if europe else ""} Tap through to read the full warning on their site.</p>'
             f'{early}</div></div>'
             f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="96" data-feed-max-days="{max_age}">'

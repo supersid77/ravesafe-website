@@ -24,6 +24,10 @@ The finished site lands in `dist/`. Photos are shrunk to WebP automatically. Any
 3. Use it on a page with `{{ photo "the-name" "card" }}` (sizes: hero, wide, card, small).
 4. If a crop cuts off the important bit, add `"position": "center 20%"` to that photo in images.json. Lower numbers show more of the top.
 
+## Test site
+
+When the site builds on the netlify.app address (or on your own computer), it tells search engines not to list it. Once the real domain is live, that switches off by itself.
+
 ## Heads Up
 
 Everything lives in two files in `data/`. The logic is in `headsup.py`.
@@ -41,7 +45,7 @@ Categories are `alert`, `heads-up` and `one-to-watch`. Monitor items are interna
 
 **Automatic headlines (`data/source-feeds.json`)**
 
-Each source has `"enabled": false` until the SOP wording is approved and that service has agreed. Set it to `true` to show its latest headlines under "Latest from testing services", labelled as not yet reviewed. Only the headline, date, name and link are shown. If a feed is down, the site still builds and says so. Only headlines from the last 30 days show, and the list hides itself if it hasn't updated for 4 days.
+Each source has `"enabled": false` until the SOP wording is approved and that service has agreed. Set it to `"preview"` to show it on the netlify.app test site only (for showing a service the page before they agree), or `true` to show its latest headlines everywhere under "Latest from testing services", labelled as not yet reviewed. Only the headline, date, name and link are shown. If a feed is down, the site still builds and says so. Only headlines from the last 30 days show, and the list hides itself if it hasn't updated for 4 days.
 
 The site rebuilds every 3 days to fetch new headlines (`.github/workflows/headsup-rebuild.yml`, using the `NETLIFY_BUILD_HOOK` secret in GitHub). Each Netlify deploy uses 15 of the free plan's 300 monthly credits, so don't make it more frequent without upgrading.
 

@@ -243,8 +243,15 @@ def build():
     (DIST / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{SITE_URL}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
-    (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
     shutil.copy(ROOT / "host" / "_headers", DIST / "_headers")
+    if headsup.is_preview():
+        # Test site (netlify.app or a local build): keep it out of search engines
+        (DIST / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
+        with open(DIST / "_headers", "a") as h:
+            h.write("\n# Test site only: keep out of search results\n/*\n  X-Robots-Tag: noindex, nofollow\n")
+        print("Test site build: search engines blocked, preview-only sources shown")
+    else:
+        (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
     shutil.copy(ROOT / "host" / "_redirects", DIST / "_redirects")
 
     if missing_downloads:
