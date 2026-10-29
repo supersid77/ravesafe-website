@@ -1,53 +1,137 @@
-=== checkit html around list
-Aktuelle Warnungen und Besonderheiten</p>
-</div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-6 col-md-clear single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont" ></div></div></div></div></div><script id="script-row-unique-0" data-row="script-row-unique-0" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-0"));</script></div></div></div><div data-parent="true" class="vc_row has-bg need-focus style-check-turquoise-bg vc_custom_1625595734947 border-color-gyho-color row-container" style="border-style: solid;border-bottom-width: 1px ;" id="row-unique-1"><div class="row col-double-gutter no-top-padding double-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_center align_left_tablet align_left_mobile column_parent col-lg-12 half-internal-gutter"><div class="uncol style-light checkit sticky-element sticky-sidebar shift_y_single shift_y_fixed"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont" ><div id="warnungen" class="isotope-system isotope-general-light grid-general-light" >
-			
-														<div class="isotope-wrapper grid-wrapper single-gutter" >												<div class="isotope-container grid-container isotope-layout style-metro isotope-infinite grid-infinite" data-type="metro" data-layout="masonry" data-lg="1200" data-md="1000" data-sm="480" data-vp-height="1">			<div class="tmb atc-typography-inherit tmb-iso-w3 tmb-iso-h33 tmb-round tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-content-mobile-left tmb-image-color-anim tmb-image-anim tmb-show-secondary tmb-shadowed tmb-shadowed-sm  grid-cat-73 tmb-id-89980 tmb-only-text tmb-content-under" ><div class="t-inside style-color-xsdn-bg animate_when_almost_visible bottom-t-top" data-delay="200" data-speed="600"><div class="t-entry-text">
-									<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-date">9. Oktober 2026</span></p><h3 class="t-entry-title h3 font-weight-700 title-scale "><a href="https://checkit.wien/aktuelle-warnungen-kw-41-2026/" target="_self">Aktuelle Warnungen KW 41 &#8211; 2026</a></h3><div data-parent="true" class="vc_row row-container" id="row-unique-2"><div class="row no-top-padding no-bottom-padding no-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont" ><div class="uncode_text_column" ><p><a href="https://checkit.wien/wp-content/uploads/2026/10/checkit_Warnungen_2026_KW41.pdf" target="_blank" rel="noopener"><img decoding="async" class="alignleft wp-image-6516 size-thumbnail" src="https://checkit.wien/media/Substanzwarnung-Schatten-150x150.png" alt="" width="150" height="150" /></a></p>
-<p>Mitte bis Ende September 2026 haben wir eine Reihe an gesundheitlich besonders bedenklichen Substanzen getestet. Mehrere als 4-MMC abgegebene Proben enthielten neben 4-MMC andere Substanzen wie <strong>alpha-PVP</strong>, <strong>4-CMC</strong> oder <strong>4-BEC.</strong> In einer vermeintlichen Ecstasy-Tablette wurde neben MDMA erneut der Wirkstoff <strong>PMMA</strong> analysiert. In zwei weiteren vermeintlichen Ecstasy-Tabletten wurde ausschließlich Koffein nachgewiesen. In einer Speed-Probe wurde neben Amphetamin auch Methamphetamin detektiert. In einer als Kokain abgegebenen Probe wurde ausschließlich eine <strong>unbekannte Substanz</strong> gefunden. In einer als LSD zur Analyse abgegebenen Probe wurde neben LSD auch <strong>MiPLA </strong>und <strong>ETH-LAD</strong> nachgewiesen.</p>
-<p>Unter nachfolgendem Link werden alle Proben, die seit den letzten Warnungen bis heute von checkit! analysiert und als hoch dosiert, unerwartet oder gesundheitlich besonders bedenklich eingestuft wurden, detailliert dargestellt: <a href="https://checkit.wien/wp-content/uploads/2026/10/checkit_Warnungen_2026_KW41.pdf" target="_blank" rel="noopener"><strong>Aktuelle Warnungen KW 41 &#8211; 2026</strong></a></p>
-</div></div></div></div></div></div></div></div></div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</div></div>
-							</div></div></div><div class="tmb atc-typography-inherit tmb-iso-w3 tmb-iso-h33 tmb-round tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-content-mobile-left tmb-image-color-anim tmb-image-anim tmb-show-secondary tmb-shadowed tmb-shadowed-sm  grid-cat-73 grid-cat-74 tmb-id-89966 tmb-only-text tmb-content-under" ><div class="t-inside style-color-xsdn-bg animate_when_almost_visible bottom-t-top" data-delay="200" data-speed="600"><div class="t-entry-text">
-									<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-date">25. September 2026</span></p><h3 class="t-entry-title h3 font-weight-700 title-scale "><a href="https://checkit.wien/warnung-3-mmc-und-mephedron-mit-alpha-pvp/" target="_self">Warnung! 3-MMC und Mephedron mit alpha-PVP</a></h3><p>Im September wurde in einer als Mephedron (4-MMC) und in einer als 3-MMC abgegebenen Probe stattdessen das wesentlich stärker wirksame <strong>synthetische Cathinon alpha-PVP</strong> festgestellt. Es handelte sich jeweils um weißes Pulver, das in Wien bezogen wurden.</p>
-<p><strong>Wir raten dringend vom Konsum dieser Pulver ab!</strong></p>
-<p>Weitere Informationen dazu hier: <a href="https://checkit.wien/wp-content/uploads/2026/09/checkit_Warnungen_2026_alpha-pvp.pdf">checkit!_Warnungen_alpha-PVP</a></p>
-<p>&nbsp;</p>
-</div></div>
-							</div></div></div><div class="tmb atc-typography-inherit tmb-iso-w3 tmb-iso-h33 tmb-round tmb-light tmb-overlay-text
-=== checkit sitemap/feeds
-https://checkit.wien/wp-json/wp/v2/posts?per_page=3&_fields=date,link,title ERR HTTP Error 401: Unauthorized
-https://checkit.wien/category/warnungen/feed/ <!DOCTYPE html>
-<html class="no-touch" lang="de-AT" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="pingback" href="https://checkit.wien/xmlrpc.php">
-<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+=== sample html
+ction</a> or go the <a href="https://dan247.org.uk/">DAN 24/7 helpline</a></p>
+						</div>
+				</div>
+			</div>
+		</header><div class="nhsuk-width-container">
+    <nav class="nhsuk-breadcrumb wedinos-breadcrumbs nhsuk-u-margin-top-1" aria-label="Breadcrumbs.">
+        <div class="aioseo-breadcrumbs"><ol class="nhsuk-breadcrumb__list"><li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link aioseo-breadcrumb" href="https://wedinos.wales/">Home</a></li><li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link aioseo-breadcrumb" href="https://wedinos.wales/sample/">Samples</a></li></ol><p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink aioseo-breadcrumb" href="https://wedinos.wales/sample/">Samples</a></p></div>    </nav>
+</div>
+<main class="nhsuk-main-wrapper nhsuk-u-padding-top-0 nhsuk-u-padding-bottom-0" id="maincontent" role="main">
+        <div class="wedinos-h1-banner wedinos-h1-banner--substance" style="background-image: url('https://wedinos.wales/app/uploads/sites/4/2026/10/5533.jpg');">
+        <div class="nhsuk-width-container">
+            <h1>W106245</h1>        </div>
+    </div>
 
-	<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
-	<title>Warnungen Archive - checkit!</title>
-	<link rel="canonical" href="https://checkit.wien/warnungen/" />
-	<link rel="next" href="https://checkit.wien/warnungen/page/2/" />
-	<meta property="og:locale" content="de_DE" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Warnungen Archive - checkit!" />
-	<meta property="og:url" content="https://checkit.wien/warnungen/" />
-	<meta property="og:site_name" content="checkit!" />
-	<meta property="og:image" content="https://checkit.wien/wp-content/uploads/2022/11/checkit_b.png" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="672" />
-	<meta proper
-https://checkit.wien/robots.txt # START YOAST BLOCK
-# ---------------------------
-User-agent: *
-Disallow:
+    <div class="nhsuk-width-container nhsuk-u-padding-top-7 nhsuk-u-padding-bottom-7">
+        <div class="nhsuk-grid-row">
+            <div class="nhsuk-grid-column-full nhsuk-u-reading-width">
+                <div class="sample-results__result-heading">
+  <h2 class="nhsuk-u-margin-top-4 nhsuk-u-margin-bottom-2 nhsuk-heading-m">W106245</h2>
+    <p>Date received - 13/10/2026</p>
+</div>
 
-Sitemap: https://checkit.wien/sitemap_index.xml
-# ---------------------------
-# END YOAST BLOCK
-=== EC items 10
-['https://energycontrol.org/alertas/', 'https://energycontrol.org/alertas/', 'https://energycontrol.org/alertas/alerta-en-espana-pmma-y-mdma-en-pastillas-vendidas-como-mdma/', 'https://energycontrol.org/alertas/alerta-en-europa-pmma-y-mdma-en-pastillas-vendidas-como-mdma-que-hacer-si-las-has-visto/']
-['es']
+
+<div class="nhsuk-tabs" data-module="nhsuk-tabs">
+  <h3 class="nhsuk-tabs__title">
+    Contents  </h3>
+  <ul class="nhsuk-tabs__list">
+    <li class="nhsuk-tabs__list-item nhsuk-tabs__list-item--selected">
+      <a class="nhsuk-tabs__tab" href="#sample-data-results32690">
+        <span class="nhsuk-u-visually-hidden">W106245</span>
+        Results      </a>
+    </li>
+    <li class="nhsuk-tabs__list-item">
+      <a class="nhsuk-tabs__tab" href="#sample-data-information32690">
+        <span class="nhsuk-u-visually-hidden">W106245</span>
+        Information      </a>
+    </li>
+  </ul>
+
+  <div class="nhsuk-tabs__panel nhsuk-u-padding-bottom-2 nhsuk-u-padding-top-4" id="sample-data-results32690">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-two-thirds">
+        <table class="nhsuk-u-margin-bottom-0">
+          <tbody>
+            <tr>
+              <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Purchase intent</th>
+              <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+                Diazepam              </td>
+            </tr>
+            <tr>
+              <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample upon analysis (major)</th>
+              <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+                                  <ul class="nhsuk-list">
+                                          <li class="nhsuk-u-font-size-16">Diazepam
+</li>
+                                      </ul>
+                              </td>
+            </tr>
+            <tr>
+              <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample upon analysis (minor)</th>
+              <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+                                  <p class="nhsuk-u-font-size-16">Not stated</p>
+                              </td>
+            </tr>
+            <tr>
+              <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Postcode</th>
+              <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+                NP26              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="nhsuk-grid-column-one-third nhsuk-u-padding-0">
+        <div>
+                      <img class="sample-image" style="max-width: 210px;" src="https://wedinos.wales/app/uploads/sites/4/2026/10/5533.jpg" alt="W106245">
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nhsuk-tabs__panel nhsuk-tabs__panel--hidden nhsuk-u-padding-bottom-2 nhsuk-u-padding-top-4" id="sample-data-information32690">
+    <table class="nhsuk-u-margin-bottom-0">
+      <tbody>
+        <tr>
+          <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Package label</th>
+          <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+            Diazepam 10          </td>
+        </tr>
+        <tr>
+          <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample colour</th>
+          <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+                          <ul class="nhsuk-list">
+                                  <li class="nhsuk-u-font-size-16">White</li>
+                              </ul>
+                      </td>
+        </tr>
+        <tr>
+          <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample form</th>
+          <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+            Tablet          </td>
+        </tr>
+        <tr>
+          <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Consumption method          </th>
+          <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+            Not stated          </td>
+        </tr>
+        <tr>
+          <th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Self-reported effects          </th>
+          <td class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">
+                          <p class="nhsuk-u-font-size-16">Not stated</p>
+                      </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>            </div>
+        </div>
+    </div>
+</main>
+
+<footer role="contentinfo">
+  <div class="nhsuk-footer-container">
+    <div class="nhsuk-width-container">
+		<h2 class="nhsuk-u-visually-hidden">WEDINOS Support links</h2>
+        <div class="nhsuk-footer">
+            <ul class="nhsuk-footer__list">
+                                    							<li class="nhsuk-footer__list-item nhsuk-footer-default__list-item">
+								<a class="nhsuk-footer__list-item-link" href="https://wedinos.wales/about-us/">About us</a>
+            
+=== another sample text
+gin-bottom-2 nhsuk-heading-m">W106298 Date received - 14/10/2026 Contents W106298 Results W106298 Information Purchase intent 3MMC Sample upon analysis (major) 
+=== totals None None
+=== since 29 Jul None
+=== since 29 Oct 2025 None
+=== taxonomies
+{"description":"","hierarchical":true,"has_archive":true,"name":"Samples","slug":"sample","icon":"dashicons-chart-line","taxonomies":[],"rest_base":"sample","rest_namespace":"wp\/v2","template":[],"template_lock":false,"_links":{"collection":[{"href":"https:\/\/wedinos.wales\/wp-json\/wp\/v2\/types"}],"wp:items":[{"href":"https:\/\/wedinos.wales\/wp-json\/wp\/v2\/sample"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
