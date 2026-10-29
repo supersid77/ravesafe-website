@@ -9,6 +9,7 @@ import html, json, os, re, sys
 from datetime import date, datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
@@ -257,8 +258,13 @@ def render_feed(fetch=fetch_feed):
     def row(i):
         lang = i["lang"] if re.match(r"^[a-z]{2}$", i["lang"]) else "en"
         tag = f' · in {esc(i["language"])}' if lang != "en" and i["language"] else ""
+        translate = ""
+        if lang != "en":
+            tr = f'https://translate.google.com/translate?sl={lang}&tl=en&u={quote(i["link"], safe="")}'
+            translate = (f'<a class="hu-feed__tr" href="{esc(tr)}" rel="noopener">'
+                         f'Read in English<span class="visually-hidden"> (opens Google Translate)</span></a>')
         return (f'<li data-date="{i["date"].isoformat()}"><a href="{esc(i["link"])}" rel="noopener" lang="{lang}">{esc(i["title"])}</a>'
-                f'<span>{esc(i["source"])}{tag} · {nice(i["date"].isoformat())}</span></li>')
+                f'<span>{esc(i["source"])}{tag} · {nice(i["date"].isoformat())}</span>{translate}</li>')
     rows = "".join(row(i) for i in items[:limit])
     names = ", ".join(f'<a href="{esc(_safe_url(s.get("home_url")) or _safe_url(s["feed_url"]))}" rel="noopener">{esc(s["name"])}</a>' for s in on)
     if not rows and len(failed) == len(on):
@@ -286,7 +292,7 @@ def render_feed(fetch=fetch_feed):
             f'<h2 id="feed-title" class="display h-lg">Latest from testing services</h2>'
             f'<p class="muted"><span class="tag tag--cyan">Not yet reviewed by RaveSafe</span></p>'
             f'<p class="muted">These are the last {max_age} days of headlines from drug checking services {where}, shown as they are. '
-            f'We haven\'t checked or classified them yet.{" Some are in the service\'s own language." if europe else ""} Tap through to read the full warning on their site.</p>'
+            f'We haven\'t checked or classified them yet.{" Some are in the service\'s own language. Tap Read in English to see the full alert through Google Translate. Automatic translations aren\'t always exact, so go by the original if anything seems unclear." if europe else ""} Tap through to read the full warning on their site.</p>'
             f'{early}</div></div>'
             f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="96" data-feed-max-days="{max_age}">'
             f'<ul class="hu-feed">{rows}</ul>'
