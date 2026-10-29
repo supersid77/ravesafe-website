@@ -161,10 +161,21 @@ def _text(el, *names):
     return ""
 
 
-def fetch_feed(src, limit):
-    req = Request(src["feed_url"], headers={"User-Agent": "RaveSafe-site-build (+https://ravesafecommunity.com)"})
-    with urlopen(req, timeout=15) as r:
-        root = ET.fromstring(r.read())
+UA = {"User-Agent": "RaveSafe-site-build (+https://ravesafecommunity.com)"}
+
+
+def _get(url):
+    with urlopen(Request(url, headers=UA), timeout=15) as r:
+        return r.read()
+
+
+def _item(src, title, link, when):
+    return {"title": title, "link": link, "date": when, "source": src["name"], "lang": src.get("lang_code", "en"),
+            "language": src.get("language", "")}
+
+
+def fetch_rss(src, limit):
+    root = ET.fromstring(_get(src["feed_url"]))
     items = []
     for it in root.iter("item"):
         title, link = _text(it, "title"), _safe_url(_text(it, "link"))
@@ -175,10 +186,43 @@ def fetch_feed(src, limit):
             when = parsedate_to_datetime(_text(it, "pubDate")).date()
         except (TypeError, ValueError):
             pass
-        items.append({"title": title, "link": link, "date": when, "source": src["name"]})
+        items.append(_item(src, title, link, when))
         if len(items) >= limit:
             break
     return items
+
+
+DE_MONTHS = {m: i for i, m in enumerate(["januar", "februar", "märz", "april", "mai", "juni", "juli", "august",
+                                         "september", "oktober", "november", "dezember"], 1)}
+CHECKIT_RE = re.compile(r'class="t-entry-date">\s*(\d{1,2})\.\s*([^\s<]+)\s+(\d{4})\s*</span>.*?'
+                        r'<h3[^>]*t-entry-title[^>]*>\s*<a href="([^"]+)"[^>]*>(.*?)</a>', re.S)
+
+
+def fetch_checkit(src, limit):
+    """checkit! (Vienna) has no feed, so read the dated warnings list on its results page."""
+    page = _get(src["feed_url"]).decode("utf-8", "replace")
+    items = []
+    for d, mon, y, link, title in CHECKIT_RE.findall(page):
+        m = DE_MONTHS.get(mon.lower())
+        link = _safe_url(html.unescape(link))
+        title = re.sub(r"<[^>]+>", "", html.unescape(title)).strip()
+        if not (m and link and title):
+            continue
+        try:
+            when = date(int(y), m, int(d))
+        except ValueError:
+            continue
+        items.append(_item(src, title, link, when))
+        if len(items) >= limit:
+            break
+    return items
+
+
+FETCHERS = {"rss": fetch_rss, "checkit": fetch_checkit}
+
+
+def fetch_feed(src, limit):
+    return FETCHERS[src.get("type", "rss")](src, limit)
 
 
 def render_feed(fetch=fetch_feed):
@@ -199,16 +243,27 @@ def render_feed(fetch=fetch_feed):
     cutoff = date.today().toordinal() - max_age
     items = [i for i in items if i["date"] and i["date"].toordinal() >= cutoff]
     items.sort(key=lambda i: i["date"], reverse=True)
-    rows = "".join(
-        f'<li data-date="{i["date"].isoformat()}"><a href="{esc(i["link"])}" rel="noopener">{esc(i["title"])}</a>'
-        f'<span>{esc(i["source"])}{" · " + nice(i["date"].isoformat()) if i["date"] else ""}</span></li>'
-        for i in items[:limit])
+    def row(i):
+        lang = i["lang"] if re.match(r"^[a-z]{2}$", i["lang"]) else "en"
+        tag = f' · in {esc(i["language"])}' if lang != "en" and i["language"] else ""
+        return (f'<li data-date="{i["date"].isoformat()}"><a href="{esc(i["link"])}" rel="noopener" lang="{lang}">{esc(i["title"])}</a>'
+                f'<span>{esc(i["source"])}{tag} · {nice(i["date"].isoformat())}</span></li>')
+    rows = "".join(row(i) for i in items[:limit])
     names = ", ".join(f'<a href="{esc(_safe_url(s.get("home_url")) or _safe_url(s["feed_url"]))}" rel="noopener">{esc(s["name"])}</a>' for s in on)
     if not rows and len(failed) == len(on):
         rows = f'<li class="hu-feed__empty">Couldn\'t load the latest headlines just now. Check {names} directly.</li>'
     elif not rows:
         rows = (f'<li class="hu-feed__empty">No new headlines in the last {max_age} days. '
                 f'Check {names} directly for older warnings.</li>')
+    sources = "".join(
+        f'<li><a href="{esc(_safe_url(x.get("home_url")) or _safe_url(x["feed_url"]))}" rel="noopener">{esc(x["name"])}</a>'
+        f'{", " + esc(x["country"]) if x.get("country") else ""}'
+        f'{". Headlines in " + esc(x["language"]) if x.get("language") and x.get("lang_code", "en") != "en" else ""}</li>'
+        for x in on)
+    europe = any(x.get("country", "UK") != "UK" for x in on)
+    where = "the UK and Europe" if europe else "the UK"
+    early = ('<p class="muted">Dangerous batches are often spotted in Europe before they reach the UK, '
+             'so these can be an early warning of what\'s coming.</p>') if europe else ""
     try:
         now, zone = datetime.now(ZoneInfo("Europe/London")), "UK time"
     except Exception:
@@ -219,13 +274,16 @@ def render_feed(fetch=fetch_feed):
             f'<p class="kicker">Straight from the testing services</p>'
             f'<h2 id="feed-title" class="display h-lg">Latest from testing services</h2>'
             f'<p class="muted"><span class="tag tag--cyan">Not yet reviewed by RaveSafe</span></p>'
-            f'<p class="muted">These are the last {max_age} days of headlines from {names}, shown as they are. We haven\'t checked or classified them yet. '
-            f'Tap through to read the full warning on their site.</p></div></div>'
+            f'<p class="muted">These are the last {max_age} days of headlines from drug checking services in {where}, shown as they are. '
+            f'We haven\'t checked or classified them yet.{" Some are in the service\'s own language." if europe else ""} Tap through to read the full warning on their site.</p>'
+            f'{early}</div></div>'
             f'<div data-feed-checked="{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}" data-feed-max-hours="96" data-feed-max-days="{max_age}">'
             f'<ul class="hu-feed">{rows}</ul>'
             f'<p class="hu-feed__stale panel" hidden>These headlines haven\'t updated for over 4 days, so we\'ve hidden them in case they\'re out of date. '
             f'Check {names} directly for their latest warnings.</p>'
-            f'<p class="note">Last checked {stamp}. All credit to the services who do the testing.</p></div></div></section>')
+            f'<p class="note">Last checked {stamp}. All credit to the services who do the testing.</p></div>'
+            f'<details class="hu-sources"><summary>Where these headlines come from</summary><ul class="ticks">{sources}</ul></details>'
+            f'</div></section>')
 
 
 # ---------- Shortcodes ----------

@@ -17,11 +17,14 @@ Point 7 changed from 48 hours to 4 days, approved by Sid on 28 October 2026 at 1
 ## Settings
 
 - Only headlines from the last 30 days are shown (decided by Sid, 28 Oct 2026). Older or undated headlines are left out.
-- Up to 8 headlines at a time.
+- Up to 10 headlines at a time.
+- Headlines in other languages are shown in the original language, labelled with the language, as point 2 says nothing is reworded. Added 29 Oct 2026 because European services often spot dangerous batches before they reach the UK.
 - The site rebuilds every 3 days to fetch new headlines (GitHub Actions and a Netlify build hook). Chosen to stay within Netlify's free plan. Live alerts are covered on RaveSafe's socials.
 
 ## Status
 
 | Source | Written permission | Approved to switch on | Enabled |
 |---|---|---|---|
-| The Loop | Okay received by Sid, 28 Oct 2026 (written copy to be filed) | Yes, Sid, 28 Oct 2026 19:38 | Yes |
+| The Loop (UK) | Okay received by Sid, 28 Oct 2026 (written copy to be filed) | Yes, Sid, 28 Oct 2026 19:38 | Yes |
+| Energy Control (Spain, Spanish headlines) | Not yet asked | Sid asked for it to be added, 29 Oct 2026 | No, waiting for permission |
+| checkit! (Vienna, German headlines) | Not yet asked | Sid asked for it to be added, 29 Oct 2026 | No, waiting for permission |

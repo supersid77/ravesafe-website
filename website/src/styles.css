@@ -377,6 +377,8 @@ a.card:hover { border-color: var(--line-strong); transform: translateY(-2px); co
 .hu-feed li { display: grid; gap: 4px; padding: 14px 18px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
 .hu-feed a { font-weight: 700; }
 .hu-feed span { font-size: 14px; color: var(--mist); }
+.hu-sources > summary { cursor: pointer; font-weight: 700; color: var(--lime); padding: 6px 0; }
+.hu-sources ul { margin-top: 10px; }
 .hu-feed li.hu-feed__empty { display: block; color: var(--soft); }
 .hu-feed__empty a { font-weight: 700; }
 .alert__top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
