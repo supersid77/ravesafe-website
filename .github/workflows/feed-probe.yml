@@ -2,9 +2,15 @@ name: Feed probe (one-off check)
 on:
   push:
     branches: [feed-probe]
+    paths: [probe/urls.txt, probe/probe.py, .github/workflows/feed-probe.yml]
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 probe/probe.py
+      - run: python3 probe/probe.py > probe/results.txt 2>&1 || true
+      - run: |
+          git config user.name "feed-probe"; git config user.email "feed-probe@users.noreply.github.com"
+          git add probe/results.txt && git commit -m "Probe results" && git push
