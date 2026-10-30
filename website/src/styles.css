@@ -473,8 +473,8 @@ fieldset.field legend { font-size: 14px; font-weight: 700; margin-bottom: 8px; p
 .legal tr:last-child td { border-bottom: 0; }
 
 /* ---------- Medical disclaimer (pages with health or drug advice) ---------- */
-.disclaimer { background: #1A1708; border-bottom: 1px solid #4A4214; }
-.disclaimer__inner { display: flex; gap: 14px; align-items: flex-start; padding-top: 16px; padding-bottom: 16px; }
+.disclaimer { background: #1A1708; border-top: 1px solid #4A4214; border-bottom: 1px solid #4A4214; }
+.disclaimer__inner { display: flex; gap: 14px; align-items: flex-start; padding-top: 20px; padding-bottom: 20px; }
 .disclaimer svg { flex: none; color: var(--lime-hover); margin-top: 2px; }
 .disclaimer p { font-size: 15px; line-height: 1.55; color: var(--soft); max-width: 110ch; }
 .disclaimer strong { color: var(--white); }

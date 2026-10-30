@@ -210,7 +210,8 @@ def build():
     for p in sorted((SRC / "pages").glob("*.html")):
         meta, body = read_page(p)
         path = meta["path"]
-        body = body.replace("{{ disclaimer }}", DISCLAIMER)
+        if "{{ disclaimer }}" in body:  # medical disclaimer box goes at the bottom of the page, above the footer
+            body = body.replace("{{ disclaimer }}", "").rstrip() + "\n" + DISCLAIMER + "\n"
         body = headsup.SHORTCODE.sub(hu_render, body)
         body = PHOTO_RE.sub(lambda m: photo(m.group(1), m.group(2) or "card", m.group(3) or ""), body)
         page = (layout.replace("{{ content }}", body)
