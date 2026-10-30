@@ -134,5 +134,17 @@
   "ravesafe-crew-tshirts": {
     "alt": "Three lads with their arms round each other, wearing glowing RaveSafe Community unicorn t-shirts",
     "position": "center 60%"
+  },
+  "child-on-shoulders-crowd": {
+    "alt": "Young girl cheering on an adult's shoulders with her arms in the air, in a crowd at a night-time party",
+    "position": "center 30%"
+  },
+  "friends-arm-in-arm-ibiza": {
+    "alt": "Two friends in sunglasses sitting arm in arm and smiling at a daytime party in Ibiza",
+    "position": "center 40%"
+  },
+  "inflatable-unicorn-festival": {
+    "alt": "Woman in sunglasses riding an inflatable unicorn with her arms in the air at a festival at night",
+    "position": "center 45%"
   }
 }
