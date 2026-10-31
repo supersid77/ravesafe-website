@@ -89,27 +89,28 @@
       "status": "approved",
       "classification": "heads-up",
       "title": "Fake mephedrone: 4-CMC sold as 4-MMC and 3-MMC in Europe",
-      "summary": "Drug checking services in Vienna, Berlin and Ljubljana keep finding 4-CMC and other little-known cathinones in powder sold as mephedrone (4-MMC) or 3-MMC. Some samples had no mephedrone in at all.",
+      "summary": "Drug checking services in Vienna, Berlin and Slovenia keep finding 4-CMC and other little-known chemicals in powder sold as mephedrone (4-MMC) or 3-MMC. Some samples had no mephedrone in at all. The latest, from DrogArt on 30 October, was dpDMC, a little-known cocaine-like stimulant, sold as 4-MMC on the darknet.",
       "sold_as": "Mephedrone (4-MMC) or 3-MMC",
       "detected": [
         "4-CMC",
         "4-BEC",
         "2-MMC",
         "N-ethylpentedrone (NEP)",
+        "dpDMC (N,N-dipropyldimethocaine)",
         "unknown substances"
       ],
       "evidence_type": "Laboratory-confirmed",
       "testing_org": "checkit! (Vienna), drugchecking.berlin, DrogArt (Slovenia)",
       "issuing_org": "",
       "source_url": "https://drugchecking.berlin/aktuelle-warnungen",
-      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026",
-      "source_date": "2026-10-19",
+      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026. Update: DrogArt 30 Oct 2026, dpDMC sold as 4-MMC (https://www.drogart.org/rezultati-in-opozorila/dpdmc-prodan-kot-4-mmc-na-darknetu/)",
+      "source_date": "2026-10-30",
       "location_label": "European",
-      "location_detail": "Vienna (Austria), Berlin (Germany) and Ljubljana (Slovenia). Not found in UK results so far.",
+      "location_detail": "Vienna (Austria), Berlin (Germany) and Slovenia (Ljubljana, and Maribor for the dpDMC sample, which was bought on the darknet as a brown crystal). Not found in UK results so far.",
       "original_warning_level": "",
       "trend_status": "Established",
-      "why_classified": "Three labs have confirmed it again and again through 2026. These substitutes are much less researched than mephedrone, and 4-CMC is suspected of damaging nerve cells. We haven't seen it in UK results, so it's a Heads Up rather than an Alert.",
-      "uncertainty": "We don't know if it's in the UK. We can't say how much of the mephedrone on sale is affected.",
+      "why_classified": "Three labs have confirmed it again and again through 2026, and new substitutes keep appearing. These chemicals are much less researched than mephedrone. 4-CMC is suspected of damaging nerve cells, and DrogArt says almost nothing is known about how toxic dpDMC is. We haven't seen it in UK results, so it stays a Heads Up.",
+      "uncertainty": "We don't know if it's in the UK. We can't say how much of the mephedrone on sale is affected. The dpDMC sample was bought online, so the seller could be anywhere.",
       "advice": [
         "Get it tested if you can.",
         "If it looks, smells or feels different from what you expect, don't take more.",
@@ -117,13 +118,17 @@
         "Don't mix with alcohol or other stimulants.",
         "If someone overheats, has chest pain or a very fast heartbeat, call 999."
       ],
-      "reviewed_date": "2026-10-29",
+      "reviewed_date": "2026-10-31",
       "approved_by": "Sid",
       "approved_at": "2026-10-29 15:21",
       "history": [
         {
           "date": "2026-10-29",
           "change": "Approved by Sid"
+        },
+        {
+          "date": "2026-10-31",
+          "change": "Updated with DrogArt's dpDMC finding (30 Oct). Update approved by Jimmy"
         }
       ]
     },
@@ -168,6 +173,83 @@
         {
           "date": "2026-10-29",
           "change": "Approved by Sid"
+        }
+      ]
+    },
+    {
+      "id": "HU-2026-0004",
+      "status": "approved",
+      "classification": "heads-up",
+      "title": "Nitazene found in fake OxyContin tablets bought on the darknet",
+      "summary": "DrogArt in Slovenia has found metonitazene, a very strong synthetic opioid, in a tablet bought on the darknet as OxyContin (oxycodone). Metonitazene is a nitazene. DrogArt says it is about as strong as fentanyl and 25 to 50 times stronger than oxycodone. A tiny amount can stop someone breathing.",
+      "sold_as": "Oxycodone (OxyContin 80 tablets), bought on the darknet",
+      "detected": [
+        "Metonitazene (a nitazene synthetic opioid)"
+      ],
+      "evidence_type": "Laboratory-confirmed",
+      "testing_org": "DrogArt (Slovenia), tested by the National Laboratory of Health, Environment and Food (NLZOH)",
+      "issuing_org": "DrogArt",
+      "source_url": "https://www.drogart.org/rezultati-in-opozorila/potenten-sinteticni-opiod-prodan-kot-oksikodon-na-darknetu/",
+      "sample_ref": "DrogArt warning 30 Oct 2026, \"Potenten sintetični opiod prodan kot oksikodon na darknetu\"",
+      "source_date": "2026-10-30",
+      "location_label": "European",
+      "location_detail": "Tested in Slovenia. Bought on the darknet, so the seller could be anywhere. Round green tablet marked \"80\" on one side and \"OC\" on the other. Not found in UK results in our data so far.",
+      "original_warning_level": "DrogArt warning (opozorilo)",
+      "trend_status": "Isolated",
+      "why_classified": "A lab has confirmed a nitazene in a fake prescription painkiller. Nitazenes can kill in tiny amounts, and people buying oxycodone won't expect anything this strong. Fake tablets sold online can reach the UK by post. It's one sample from outside the UK, so it's a Heads Up rather than an Alert.",
+      "uncertainty": "This is one tablet. DrogArt didn't give the amount in it, and says tablets from the same batch may hold different amounts. We don't know where the seller is or whether the same tablets are on sale in the UK.",
+      "advice": [
+        "Fake tablets can look exactly like real medicines. A pharmacy box or a marking like \"OC 80\" proves nothing.",
+        "Don't use alone, and don't all use at the same time, so someone can call for help.",
+        "Don't mix with alcohol, benzos, GHB/GBL or other opioids.",
+        "Carry naloxone. In the UK you can get it free from many drug services and some pharmacies.",
+        "If someone can't be woken, has slow or no breathing, or blue lips, call 999, give naloxone if you have it and put them in the recovery position."
+      ],
+      "reviewed_date": "2026-10-31",
+      "approved_by": "Jimmy",
+      "approved_at": "2026-10-31 11:33",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "change": "Approved by Jimmy"
+        }
+      ]
+    },
+    {
+      "id": "HU-2026-0005",
+      "status": "approved",
+      "classification": "one-to-watch",
+      "title": "3-CMC sold as MDMA crystal in Ljubljana",
+      "summary": "DrogArt in Slovenia tested white, see-through crystal sold as MDMA in Ljubljana. It was 97% 3-CMC, a synthetic cathinone, with no MDMA found. 3-CMC feels different from MDMA, and people who think their MDMA is weak may take more.",
+      "sold_as": "MDMA (crystal)",
+      "detected": [
+        "3-CMC (97%)"
+      ],
+      "evidence_type": "Laboratory-confirmed",
+      "testing_org": "DrogArt (Slovenia), tested by the National Laboratory of Health, Environment and Food (NLZOH)",
+      "issuing_org": "DrogArt",
+      "source_url": "https://www.drogart.org/rezultati-in-opozorila/3-cmc-prodan-kot-mdma-v-ljubljani/",
+      "sample_ref": "DrogArt warning 30 Oct 2026, \"3-CMC prodan kot MDMA v Ljubljani\"",
+      "source_date": "2026-10-30",
+      "location_label": "European",
+      "location_detail": "Ljubljana, Slovenia. White, see-through crystal. Not found in UK results in our data so far.",
+      "original_warning_level": "DrogArt warning (opozorilo)",
+      "trend_status": "Isolated",
+      "why_classified": "A lab has confirmed a different drug sold as MDMA. DrogArt says 3-CMC has been linked to poisonings and deaths in five EU countries and is very addictive. It's one sample in one city outside the UK, so we're watching it rather than calling it a Heads Up.",
+      "uncertainty": "This is one sample. We don't know how much of it is around, or whether it has reached the UK.",
+      "advice": [
+        "Crystal sold as MDMA can be something else. Get it tested if you can.",
+        "Start with a small amount and wait at least 2 hours before taking more.",
+        "Don't mix with alcohol or other stimulants.",
+        "If someone overheats, has chest pain, a very fast heartbeat, a fit or seems very confused, call 999."
+      ],
+      "reviewed_date": "2026-10-31",
+      "approved_by": "Jimmy",
+      "approved_at": "2026-10-31 11:33",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "change": "Approved by Jimmy"
         }
       ]
     }
