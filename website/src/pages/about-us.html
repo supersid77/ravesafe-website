@@ -119,21 +119,25 @@ path: /about-us/
     </div>
     <div class="grid grid--3">
       <article class="person">
-        <span class="person__badge" aria-hidden="true">J</span>
-        <div><h3>Jimmy</h3><p class="person__role">Founder. Vision and community</p></div>
+        {{ photo "team-jimmy" "small" "person__photo" }}
+                <div><h3>Jimmy</h3><p class="person__role">Founder. Vision and community</p></div>
         <p>Built RaveSafe from lived experience. Jimmy turns ideas into practical tools people can actually use on the night.</p>
       </article>
       <article class="person" style="--c: var(--pink-text)">
-        <span class="person__badge" aria-hidden="true">J</span>
-        <div><h3>Jo</h3><p class="person__role">Marketing. Story and connection</p></div>
+        {{ photo "team-jo" "small" "person__photo" }}
+                <div><h3>Jo</h3><p class="person__role">Marketing. Story and connection</p></div>
         <p>Gives RaveSafe its human, honest voice. Jo makes sure what we say lands, and builds the trust that gets people asking for help.</p>
       </article>
       <article class="person" style="--c: var(--cyan)">
-        <span class="person__badge" aria-hidden="true">S</span>
-        <div><h3>Simon</h3><p class="person__role">Systems. Build and structure</p></div>
+        {{ photo "team-simon" "small" "person__photo" }}
+                <div><h3>Simon</h3><p class="person__role">Systems. Build and structure</p></div>
         <p>Turns the vision into something that works. Simon looks after the build, the systems and the roadmap.</p>
       </article>
     </div>
+    <figure class="team-photo">
+      {{ photo "ravesafe-team-beach" "wide" "rounded" }}
+      <figcaption>The wider RaveSafe crew. Mates looking after mates.</figcaption>
+    </figure>
   </div>
 </section>
 

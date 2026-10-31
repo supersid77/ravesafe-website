@@ -421,6 +421,11 @@ a.card:hover { border-color: var(--line-strong); transform: translateY(-2px); co
 .person__badge { width: 64px; height: 64px; border-radius: 999px; display: grid; place-items: center; background: var(--night); border: 2px solid var(--c, var(--lime)); color: var(--c, var(--lime)); font-family: var(--font-head); font-size: 30px; }
 .person h3 { font-family: var(--font-head); font-weight: 400; font-size: 32px; text-transform: uppercase; line-height: 1; }
 .person__role { margin-top: 6px; font-size: 13px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--c, var(--lime)); }
+.person__photo { width: 96px; height: 96px; border-radius: 999px; object-fit: cover; border: 3px solid var(--c, var(--lime)); }
+.team-photo { margin: 32px 0 0; display: grid; gap: 12px; }
+.team-photo .rounded { aspect-ratio: 16 / 9; }
+.team-photo figcaption { font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--mist); }
+@media (max-width: 640px) { .team-photo .rounded { aspect-ratio: 4 / 3; } }
 .person > p { color: var(--mist); font-size: 16px; }
 
 /* ---------- Forms (Volunteer, Stories, Contact) ---------- */
