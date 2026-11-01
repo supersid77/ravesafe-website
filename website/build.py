@@ -78,7 +78,7 @@ def make_webp(name, widths):
         h = round(im.height * w / im.width)
         fn = f"{name}-{w}.webp"
         if not any(m[1] == w for m in made):
-            im.resize((w, h), Image.LANCZOS).save(out_dir / fn, "WEBP", quality=76, method=6)
+            im.resize((w, h), Image.LANCZOS).save(out_dir / fn, "WEBP", quality=IMAGES.get(name, {}).get("quality", 76), method=6)
             made.append((f"/img/{fn}", w, h))
     done_images[key] = made
     return made
@@ -249,9 +249,9 @@ def build():
     shutil.copy(ROOT / "host" / "_headers", DIST / "_headers")
     if headsup.is_preview():
         # Test site (netlify.app or a local build): keep it out of search engines
-        (DIST / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
+        (DIST / "robots.txt").write_text("User-agent: *\nAllow: /\n")  # crawlable so the noindex header is seen
         with open(DIST / "_headers", "a") as h:
-            h.write("\n# Test site only: keep out of search results\n/*\n  X-Robots-Tag: noindex, nofollow\n")
+            h.write("\n# Test site only: keep out of search results\n/*\n  X-Robots-Tag: noindex\n")
         print("Test site build: search engines blocked, preview-only sources shown")
     else:
         (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
