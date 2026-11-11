@@ -97,8 +97,8 @@
       "status": "approved",
       "classification": "heads-up",
       "title": "Fake mephedrone: 4-CMC, 2-MMC and others sold as 4-MMC and 3-MMC in Europe and the UK",
-      "summary": "Drug checking services in the UK, Vienna, Berlin and Slovenia keep finding 4-CMC and other little-known chemicals in powder or crystal sold as mephedrone (4-MMC) or 3-MMC. checkit!'s 6 November report found 4-CMC, 2-MMC, NEP and alpha-PVP in samples sold as mephedrone or 3-MMC. WEDINOS has also found 4-CMC in UK crystal sold as MDMA and in pink \"tusi\", and 2-MMC in many UK samples sold as mephedrone.",
-      "sold_as": "Mephedrone (4-MMC), 3-MMC. In the UK also MDMA crystal and pink \"tusi\"",
+      "summary": "Drug checking services in the UK, Vienna, Berlin and Slovenia keep finding 4-CMC and other little-known chemicals in powder or crystal sold as mephedrone (4-MMC) or 3-MMC. WEDINOS has found 4-CMC in 11 more UK samples, the newest sold as mephedrone and published on 9 November, and 2-MMC in two more sold as mephedrone. checkit!'s 6 November report found 4-CMC, 2-MMC, NEP and alpha-PVP in samples sold as mephedrone or 3-MMC. 4-CMC has also turned up in UK crystal sold as MDMA and in pink \"tusi\".",
+      "sold_as": "Mephedrone (4-MMC), 3-MMC, \"mkat\". In the UK also MDMA crystal, pink \"tusi\" and one white tablet",
       "detected": [
         "4-CMC",
         "2-MMC",
@@ -112,14 +112,14 @@
       "testing_org": "WEDINOS (Wales, UK), checkit! (Vienna), drugchecking.berlin, DrogArt (Slovenia)",
       "issuing_org": "",
       "source_url": "https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW45.pdf",
-      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026. Update: DrogArt 30 Oct 2026, dpDMC sold as 4-MMC (https://www.drogart.org/rezultati-in-opozorila/dpdmc-prodan-kot-4-mmc-na-darknetu/). Update: WEDINOS samples W106386, W106385, W106338, W106298, W105319, W104646, W104591, W104501, W105378. drugchecking.berlin 27 Oct 2026. Update 7 Nov: checkit! report KW45 2026. DrogArt 6 Nov 2026, 4-CMC sold as MMC and 2-MMC sold as 3-MMC in Ljubljana. WEDINOS 4-CMC: W106718, W103864, W102742, W101594, W102216 (sold as mephedrone), W102678, W102611 (sold as MDMA), W106741 (pink tusi). WEDINOS 2-MMC sold as MDMA: W103591, W103572",
-      "source_date": "2026-11-06",
+      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026. Update: DrogArt 30 Oct 2026, dpDMC sold as 4-MMC (https://www.drogart.org/rezultati-in-opozorila/dpdmc-prodan-kot-4-mmc-na-darknetu/). Update: WEDINOS samples W106386, W106385, W106338, W106298, W105319, W104646, W104591, W104501, W105378. drugchecking.berlin 27 Oct 2026. Update 7 Nov: checkit! report KW45 2026. DrogArt 6 Nov 2026, 4-CMC sold as MMC and 2-MMC sold as 3-MMC in Ljubljana. WEDINOS 4-CMC: W106718, W103864, W102742, W101594, W102216 (sold as mephedrone), W102678, W102611 (sold as MDMA), W106741 (pink tusi). WEDINOS 2-MMC sold as MDMA: W103591, W103572. Update 10 Nov: WEDINOS 4-CMC W106852 (published 9 Nov), W101917, W101505, W101421, W101416, W101040, W101196, W074564, W100952, W100491, W101063 (tablet). 2-MMC sold as mephedrone: W101043, W100623",
+      "source_date": "2026-11-09",
       "location_label": "European",
-      "location_detail": "UK (WEDINOS postcodes for 4-CMC: CB4, RG1, SE17, SE01, N7, BH23, E1, G44, TW8, EC1, E9, E2, TN14, E20, HP10 and SY10. 2-MMC sold as MDMA: BH12 and BD10), Vienna (Austria), Berlin (Germany) and Slovenia (Ljubljana, and Maribor for the dpDMC sample, which was bought on the darknet as a brown crystal). UK postcodes are where samples were sent from, not proof of where they were sold.",
+      "location_detail": "UK (WEDINOS postcodes for 4-CMC: CB4, RG1, SE17, SE01, SE13, SE5, N7, NW1, BH23, E1, E15, G44, TW8, EC1, E9, E2, TN14, E20, HP10, SY10, S18, NE3 and PL1. 2-MMC: BH12 and BD10 (sold as MDMA), HP2 and PE30 (sold as mephedrone)), Vienna (Austria), Berlin (Germany) and Slovenia (Ljubljana, and Maribor for the dpDMC sample, which was bought on the darknet as a brown crystal). UK postcodes are where samples were sent from, not proof of where they were sold.",
       "original_warning_level": "",
       "trend_status": "Established",
-      "why_classified": "Labs have confirmed it again and again through 2026, in the UK too, and it's now also turning up in crystal sold as MDMA. These chemicals are much less researched than mephedrone. 4-CMC is suspected of damaging nerve cells, and alpha-PVP is a strong stimulant linked to agitation and psychosis. We have no reports of serious harm linked to the UK samples, so we suggest it stays a Heads Up.",
-      "uncertainty": "We can't say how much of the mephedrone on sale in the UK is affected. Samples are chosen by the people sending them in. Many of the new UK samples were received in June to August and only collected now. checkit! only lists samples it flagged.",
+      "why_classified": "Labs have confirmed it again and again through 2026, in the UK too, and WEDINOS published another 4-CMC sample sold as mephedrone on 9 November. These chemicals are much less researched than mephedrone. 4-CMC is suspected of damaging nerve cells, and alpha-PVP is a strong stimulant linked to agitation and psychosis. We have no reports of serious harm linked to the UK samples, so we suggest it stays a Heads Up.",
+      "uncertainty": "We can't say how much of the mephedrone on sale in the UK is affected. Samples are chosen by the people sending them in. Most of the new UK samples were received in May and June and only collected now. W101196 is a Welsh-language page and may be a copy of a sample we don't have in English. checkit! only lists samples it flagged.",
       "advice": [
         "Get it tested if you can. Crystal sold as MDMA can be a cathinone like 4-CMC.",
         "If it looks, smells or feels different from what you expect, don't take more.",
@@ -127,9 +127,9 @@
         "Don't mix with alcohol or other stimulants.",
         "If someone overheats, has chest pain, a very fast heartbeat or seems very agitated or paranoid, call 999."
       ],
-      "reviewed_date": "2026-11-07",
-      "approved_by": "Jimmy",
-      "approved_at": "2026-11-07 11:10",
+      "reviewed_date": "2026-11-10",
+      "approved_by": "Sid",
+      "approved_at": "2026-11-10 09:13",
       "history": [
         {
           "date": "2026-10-29",
@@ -146,6 +146,10 @@
         {
           "date": "2026-11-08",
           "change": "Updated with more 4-CMC and 2-MMC samples, including some sold as MDMA, and alpha-PVP. Stays a Heads Up. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-11",
+          "change": "Updated with 11 more UK 4-CMC samples and 2 more 2-MMC samples. Stays a Heads Up. Update approved by Sid"
         }
       ]
     },
@@ -294,8 +298,8 @@
       "status": "approved",
       "classification": "alert",
       "title": "Nitazenes and fentanyl-type opioids found in UK heroin and a fake M30 tablet",
-      "summary": "WEDINOS has found nitazenes, very strong synthetic opioids, in more UK heroin and another blue tablet marked M30. The collector has now picked up 8 more samples, the latest published 4 November, mostly from Scotland. One heroin sample from Newport also held xylazine and medetomidine, two sedatives that naloxone won't reverse. These drugs can stop someone breathing in tiny amounts.",
-      "sold_as": "Heroin. Also blue tablets marked M30, sold as oxycodone or an unspecified opioid",
+      "summary": "WEDINOS has found nitazenes, very strong synthetic opioids, in about 20 UK samples, mostly heroin, plus blue tablets marked M30. The collector has just picked up 7 more, received in May and June, mostly from Edinburgh, West Lothian and Perth postcodes. One was a liquid handed in after an overdose (Cardiff postcode), which held etonitazene. Another was a white tablet sold as a nitazene. These drugs can stop someone breathing in tiny amounts.",
+      "sold_as": "Heroin. Also blue tablets marked M30, sold as oxycodone or an unspecified opioid, and one white tablet sold as a nitazene",
       "detected": [
         "Metonitazene",
         "Etonitazene",
@@ -310,14 +314,14 @@
       "testing_org": "WEDINOS (Wales, UK)",
       "issuing_org": "WEDINOS",
       "source_url": "https://wedinos.wales/sample/w105132/",
-      "sample_ref": "WEDINOS samples W105132, W104433, W105120, W105400 and W104180. Update: W106053, W102863, W102976, W102020, W103073, W103913, 000239974-2 (heroin) and W103567 (M30 tablet)",
+      "sample_ref": "WEDINOS samples W105132, W104433, W105120, W105400 and W104180. Update: W106053, W102863, W102976, W102020, W103073, W103913, 000239974-2 (heroin) and W103567 (M30 tablet). Update 10 Nov: W101291, W069113, W101033, W100709, W100279, 000235810-2 (found during an overdose) and 000233464-2 (tablet)",
       "source_date": "2026-11-04",
       "location_label": "UK-wide",
-      "location_detail": "England, Wales and Scotland. Postcodes given with the samples: RH5 and BH14 (M30 tablets), ZE1, SA1, SM2 (two samples), TD12, G82, PH1 (two samples), EH7, KA11 and NP20. Those are samples sent in, not proof of where the drugs are sold.",
+      "location_detail": "England, Wales and Scotland. Postcodes given with the samples: RH5 and BH14 (M30 tablets), ZE1, SA1, SM2 (two samples), TD12, G82, PH1 (three samples), EH7, EH6, EH15, EH48, EH54, KA11, NP20 and CF10. One tablet had no postcode. Those are samples sent in, not proof of where the drugs are sold.",
       "original_warning_level": "No warning level. WEDINOS sample results",
       "trend_status": "Repeated",
-      "why_classified": "A UK lab has confirmed these opioids in 13 samples received between June and October, in England, Wales and Scotland. Nitazenes can kill in tiny amounts, and people buying heroin may not know they're there. Several people sending samples in reported loss of consciousness or an overdose. That's why it stays an Alert.",
-      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported. WEDINOS doesn't give the amounts. Most of the new samples were received in June to August and only collected now. Sample 000239974-2 is a Welsh-language page and may be a copy of a sample we don't have in English.",
+      "why_classified": "A UK lab has confirmed these opioids in about 20 samples received between May and October, in England, Wales and Scotland. Nitazenes can kill in tiny amounts, and people buying heroin may not know they're there. Several people sending samples in reported loss of consciousness, and one sample was handed in after an overdose. That's why it stays an Alert.",
+      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported. WEDINOS doesn't give the amounts. The new samples were received in May and June and only collected now. Three samples (000239974-2, 000235810-2, 000233464-2) are Welsh-language pages and may be copies of samples we don't have in English. W100279 shows a received date after its publish date, so its dates may be wrong.",
       "advice": [
         "Don't use alone, and don't all use at the same time, so someone can call for help.",
         "Carry naloxone. In the UK you can get it free from many drug services and some pharmacies.",
@@ -325,9 +329,9 @@
         "Don't mix with alcohol, benzos, GHB/GBL or other opioids.",
         "If someone can't be woken, has slow or no breathing, or blue lips, call 999, give naloxone if you have it and put them in the recovery position. Naloxone won't reverse xylazine or medetomidine, so still call 999 even if they start breathing."
       ],
-      "reviewed_date": "2026-11-07",
-      "approved_by": "Jimmy",
-      "approved_at": "2026-11-07 11:09",
+      "reviewed_date": "2026-11-10",
+      "approved_by": "Sid",
+      "approved_at": "2026-11-10 09:11",
       "history": [
         {
           "date": "2026-11-05",
@@ -336,6 +340,10 @@
         {
           "date": "2026-11-08",
           "change": "Updated with 8 more WEDINOS samples, one with xylazine. Stays an Alert. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-11",
+          "change": "Updated with 7 more WEDINOS samples, one handed in after an overdose. Stays an Alert. Update approved by Sid"
         }
       ]
     },
@@ -344,37 +352,42 @@
       "status": "approved",
       "classification": "alert",
       "title": "Medetomidine found in UK heroin and in fake Valium tablets",
-      "summary": "WEDINOS has found medetomidine, a veterinary sedative, in 16 UK samples published since September. Four were white tablets sold as Valium, diazepam or temazepam, with medetomidine as the only drug found. Most of the rest were sold as heroin. It's not an opioid, so naloxone won't reverse it.",
-      "sold_as": "Heroin, street Valium, diazepam, temazepam and one sample sold as crack",
+      "summary": "WEDINOS has found medetomidine, a veterinary sedative, in 33 UK samples so far. The collector has just picked up 17 more, received in May and June. Nine were white tablets sold as Valium, diazepam or Xanax, with medetomidine the only drug found. Six of those gave Falkirk area postcodes, and eight of the nine people sending them in reported losing consciousness. Most of the rest were sold as heroin. It's not an opioid, so naloxone won't reverse it.",
+      "sold_as": "Heroin, street Valium, diazepam, temazepam, Xanax and one sample sold as crack",
       "detected": [
         "Medetomidine",
-        "Often with heroin, caffeine and paracetamol"
+        "Often with heroin, caffeine and paracetamol",
+        "With nitazenes in one heroin sample (EH54)"
       ],
       "evidence_type": "Laboratory-confirmed",
       "testing_org": "WEDINOS (Wales, UK)",
       "issuing_org": "WEDINOS",
       "source_url": "https://wedinos.wales/sample/w105929/",
-      "sample_ref": "WEDINOS tablets W105929, W105026, W105287 and W104586. Others include W105400, W104433, W104701, W105060, W104442, W104335",
+      "sample_ref": "WEDINOS tablets W105929, W105026, W105287 and W104586. Others include W105400, W104433, W104701, W105060, W104442, W104335. Update 10 Nov: tablets W100518, W100517, W100508, W100507, W100549, W072611, W101212, W076256 and W076221 (sold as Xanax). Heroin W101836, W101410, W101032, W101031, W100279, 000236839-2, 000239411-2, 000239408-2",
       "source_date": "2026-10-21",
       "location_label": "UK-wide",
-      "location_detail": "England, Wales and Scotland. Postcodes given with the samples include DD3, SA1 and DL1 (tablets), NP20, NP4, CF11, SM2, N7, G82, DG1, ZE1, EH22 and PH1. Those are samples sent in, not proof of where the drugs are sold.",
+      "location_detail": "England, Wales and Scotland. Postcodes given with the samples include DD3, SA1, DL1, FK10 (three), FK7, FK1, FK77, G8 and OX11 (tablets), NP20, NP4, CF11, CF63, SM2, N7, G82, DG1, ZE1, EH22, EH48, EH54, AB41 and PH1. One tablet had no postcode. Those are samples sent in, not proof of where the drugs are sold.",
       "original_warning_level": "No warning level. WEDINOS sample results",
       "trend_status": "Repeated",
-      "why_classified": "A UK lab has confirmed it in 16 samples from across Britain. People sending in tablets reported an irregular heartbeat, chest pains and in one case a seizure. It can sedate people heavily and naloxone won't reverse it, so it's easy to mistake for something else. That's why we suggest an Alert.",
-      "uncertainty": "We can't say how common it is, as these samples were chosen by the people sending them in. Effects are self-reported and can't be pinned on one drug. WEDINOS doesn't give the amounts.",
+      "why_classified": "A UK lab has now confirmed it in 33 samples from across Britain. Most people sending in the new tablets reported losing consciousness, and others have reported an irregular heartbeat, chest pains or a seizure. It can sedate people heavily and naloxone won't reverse it. Six tablets from the Falkirk area in May suggest a local batch. That's why it stays an Alert.",
+      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported and can't be pinned on one drug. WEDINOS doesn't give the amounts. The new samples were received in May and June and only collected now, so we don't know if the Falkirk tablets are still around. FK77 isn't a standard postcode district, so that one may be mistyped.",
       "advice": [
-        "Tablets sold as Valium or diazepam can be something else. Get them tested if you can.",
+        "Tablets sold as Valium, diazepam or Xanax can be something else. Get them tested if you can.",
         "Don't use alone, and start with a small amount.",
         "Don't mix with alcohol, benzos or opioids.",
         "If someone can't be woken or is struggling to breathe, call 999 and put them in the recovery position. Still give naloxone if you have it, as opioids may be there too. Tell the paramedics a sedative may be involved."
       ],
-      "reviewed_date": "2026-11-04",
-      "approved_by": "Jimmy",
-      "approved_at": "2026-11-04 09:24",
+      "reviewed_date": "2026-11-10",
+      "approved_by": "Sid",
+      "approved_at": "2026-11-10 09:11",
       "history": [
         {
           "date": "2026-11-05",
           "change": "Approved by Jimmy"
+        },
+        {
+          "date": "2026-11-11",
+          "change": "Updated with 17 more WEDINOS samples, including a cluster of fake Valium tablets around Falkirk. Stays an Alert. Update approved by Sid"
         }
       ]
     },
@@ -383,8 +396,8 @@
       "status": "approved",
       "classification": "heads-up",
       "title": "Stronger benzos in fake Valium and Xanax tablets across the UK",
-      "summary": "WEDINOS keeps finding stronger, little-known benzos in tablets sold as Valium, diazepam or Xanax, most often ethylbromazolam, with four more published on 6 November. It has also found tramadol, an opioid painkiller, in white tablets sold as Xanax or alprazolam, sometimes with no benzo at all. These are easy to overdo, especially with alcohol or other opioids.",
-      "sold_as": "Valium, diazepam, Xanax or alprazolam tablets",
+      "summary": "WEDINOS keeps finding stronger, little-known benzos in tablets sold as Valium, diazepam or Xanax, most often ethylbromazolam. It has also found tramadol, an opioid painkiller, in 15 white tablets sold as Xanax or alprazolam, now including one from Belfast. Two blue tablets sold as etizolam held desalkylgidazepam, another little-known benzo. These are easy to overdo, especially with alcohol or other opioids.",
+      "sold_as": "Valium, diazepam, Xanax, alprazolam or etizolam tablets",
       "detected": [
         "Ethylbromazolam",
         "Ethylflualprazolam",
@@ -392,6 +405,7 @@
         "Clonazolam",
         "Meclonazepam",
         "Bromazolam",
+        "Desalkylgidazepam (in tablets sold as etizolam)",
         "Tramadol (an opioid) in some tablets sold as Xanax",
         "Promethazine or chlorpheniramine in some samples"
       ],
@@ -399,14 +413,14 @@
       "testing_org": "WEDINOS (Wales, UK)",
       "issuing_org": "WEDINOS",
       "source_url": "https://wedinos.wales/sample/w106617/",
-      "sample_ref": "WEDINOS examples W106617, W106314, W105986, W105205, W105141, W103696. Update 7 Nov: ethylbromazolam W106777, W106686, W106662, 000237731-2 (published 6 Nov). Tramadol in tablets sold as Xanax or alprazolam: W106182, W103425, W103033, W102304, W103149, W103026",
+      "sample_ref": "WEDINOS examples W106617, W106314, W105986, W105205, W105141, W103696. Update 7 Nov: ethylbromazolam W106777, W106686, W106662, 000237731-2 (published 6 Nov). Tramadol in tablets sold as Xanax or alprazolam: W106182, W103425, W103033, W102304, W103149, W103026. Update 10 Nov: tramadol in tablets sold as Xanax or alprazolam W101037, W100874, W100706, W100737 (BT2), W100675, W100493, W100887, W100619, 000041793-2. Desalkylgidazepam sold as etizolam W101343, W101019",
       "source_date": "2026-11-06",
       "location_label": "UK-wide",
-      "location_detail": "England, Wales and Scotland. Dozens of postcode areas, including E, BH, CH, TR, WF, NP, L, N, CF, EH, BN and LA. Tramadol tablets: M11, YO24, SW4, BN16, SW6 and E3. Those are samples sent in, not proof of where the drugs are sold.",
+      "location_detail": "England, Wales, Scotland and Northern Ireland. Dozens of postcode areas, including E, BH, CH, TR, WF, NP, L, N, CF, EH, BN and LA. Tramadol tablets: M11, YO24, YO32, SW4, SW6, SW99, BN16, E3, PO4, LU7 (two), BA10, SA48 and BT2, plus one with no postcode. Desalkylgidazepam: E17 (two). Those are samples sent in, not proof of where the drugs are sold.",
       "original_warning_level": "No warning level. WEDINOS sample results",
       "trend_status": "Established",
-      "why_classified": "A UK lab keeps confirming this, month after month, across Britain. These benzos are less researched than diazepam, and the dose in a tablet is unknown. Tramadol in fake Xanax adds an opioid people won't expect, which raises the risk with alcohol or other downers. We have no specific new serious harm to report, so we suggest it stays a Heads Up.",
-      "uncertainty": "Samples are chosen by the people sending them in, so we can't say what share of tablets are affected. Most tramadol tablets were received in June and July. WEDINOS doesn't give the amounts.",
+      "why_classified": "A UK lab keeps confirming this, month after month, across the UK, and the collector has now found tramadol in a fake Xanax from Northern Ireland too. These benzos are less researched than diazepam, and the dose in a tablet is unknown. Tramadol in fake Xanax adds an opioid people won't expect, which raises the risk with alcohol or other downers. We have no specific new serious harm to report, so we suggest it stays a Heads Up.",
+      "uncertainty": "Samples are chosen by the people sending them in, so we can't say what share of tablets are affected. Most tramadol tablets were received in May to July and only collected now. One sample from Northern Ireland isn't enough to say how common these tablets are there. WEDINOS doesn't give the amounts.",
       "advice": [
         "Tablets can look exactly like the real thing. Get them tested if you can.",
         "Start with part of a tablet and wait.",
@@ -414,9 +428,9 @@
         "Take care with memory loss, as it's easy to forget how much you've had.",
         "If someone can't be woken or is struggling to breathe, call 999 and put them in the recovery position. Give naloxone if you have it."
       ],
-      "reviewed_date": "2026-11-07",
-      "approved_by": "Jimmy",
-      "approved_at": "2026-11-07 11:10",
+      "reviewed_date": "2026-11-10",
+      "approved_by": "Sid",
+      "approved_at": "2026-11-10 09:13",
       "history": [
         {
           "date": "2026-11-05",
@@ -425,6 +439,10 @@
         {
           "date": "2026-11-08",
           "change": "Updated with tramadol found in fake Xanax and the latest ethylbromazolam samples. Stays a Heads Up. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-11",
+          "change": "Updated with tramadol in 9 more fake Xanax, including one from Northern Ireland, and desalkylgidazepam sold as etizolam. Stays a Heads Up. Update approved by Sid"
         }
       ]
     },
@@ -432,26 +450,27 @@
       "id": "HU-2026-0009",
       "status": "approved",
       "classification": "heads-up",
-      "title": "Methamphetamine in fake Adderall, and in drugs sold as MDMA, ketamine or Xanax, in the UK",
-      "summary": "WEDINOS has found methamphetamine in four tablets sold as Adderall, and in samples sold as MDMA, ketamine and Xanax. Methamphetamine is stronger and lasts much longer than the amphetamines in real Adderall, and is nothing like ketamine or Xanax.",
-      "sold_as": "Adderall tablets. Also MDMA (crystal and granules), ketamine (crystal) and Xanax (tablet)",
+      "title": "Methamphetamine in fake Adderall, and in drugs sold as MDMA, ketamine, Xanax or 2C-B, in the UK",
+      "summary": "WEDINOS has found methamphetamine in six tablets sold as Adderall, including one from Cardiff, and in samples sold as MDMA, ketamine, Xanax and 2C-B. It also turned up in white tablets sold as weight loss and body building pills. Methamphetamine is stronger and lasts much longer than the amphetamines in real Adderall, and is nothing like ketamine or Xanax.",
+      "sold_as": "Adderall tablets. Also MDMA (crystal and granules), ketamine (crystal), Xanax (tablet), 2C-B and weight loss tablets",
       "detected": [
         "Methamphetamine",
         "With MDMA, MDA or ketamine in some samples",
-        "With ethylbromazolam in the Xanax tablet"
+        "With ethylbromazolam in the Xanax tablet",
+        "With 2C-B in one sample sold as 2C-B"
       ],
       "evidence_type": "Laboratory-confirmed",
       "testing_org": "WEDINOS (Wales, UK)",
       "issuing_org": "WEDINOS",
       "source_url": "https://wedinos.wales/sample/w105863/",
-      "sample_ref": "WEDINOS Adderall: W105259, W104940, W102891, W101612. Sold as MDMA: W105863, W103511. Sold as ketamine: W101523. Sold as Xanax: W101763",
+      "sample_ref": "WEDINOS Adderall: W105259, W104940, W102891, W101612. Sold as MDMA: W105863, W103511. Sold as ketamine: W101523. Sold as Xanax: W101763. Update 10 Nov: Adderall W100781 (CF24) and W100352 (SK8). Sold as 2C-B: W100886. Sold as weight loss tablets: W100676",
       "source_date": "2026-11-04",
       "location_label": "Regional UK",
-      "location_detail": "England only so far. Postcodes given with the samples: B31, EX10, CV4 and BA14 (Adderall), BS4 and W5 (MDMA), NN11 (ketamine) and CT68 (Xanax). Those are samples sent in, not proof of where the drugs are sold.",
+      "location_detail": "England and Wales. Postcodes given with the samples: B31, EX10, CV4, BA14, SK8 and CF24 (Adderall), BS4 and W5 (MDMA), NN11 (ketamine), CT68 (Xanax), B30 (2C-B) and CE4 (weight loss tablets). Those are samples sent in, not proof of where the drugs are sold.",
       "original_warning_level": "No warning level. WEDINOS sample results",
       "trend_status": "Repeated",
-      "why_classified": "A UK lab has now confirmed methamphetamine in eight samples sold as other drugs, across England. People who think they're taking Adderall, MDMA, ketamine or Xanax won't expect a strong, long-lasting stimulant. It's no longer two samples, so we suggest moving it from One to Watch to Heads Up. We have no reports of serious harm linked to these samples.",
-      "uncertainty": "Eight samples, chosen by the people sending them in. WEDINOS doesn't give the amounts. Most were received in June to September, and we don't know how many are around now.",
+      "why_classified": "A UK lab has now confirmed methamphetamine in 12 samples sold as other drugs, in England and Wales. People who think they're taking Adderall, MDMA, ketamine, Xanax or 2C-B won't expect a strong, long-lasting stimulant. The live entry says England only, which is no longer right. We have no reports of serious harm linked to these samples, so we suggest it stays a Heads Up.",
+      "uncertainty": "12 samples, chosen by the people sending them in. WEDINOS doesn't give the amounts. Most were received between May and September, and we don't know how many are around now. CE4 isn't a UK postcode area, so that sample's location is unclear.",
       "advice": [
         "Tablets and powders not from a pharmacy can be something else. Get them tested if you can.",
         "Start with a small amount and wait.",
@@ -459,9 +478,9 @@
         "If you can't sleep or feel very wired for many hours, don't take more. Methamphetamine lasts much longer than most stimulants.",
         "If someone overheats, has chest pain, a very fast heartbeat or a fit, call 999."
       ],
-      "reviewed_date": "2026-11-07",
-      "approved_by": "Jimmy",
-      "approved_at": "2026-11-07 11:10",
+      "reviewed_date": "2026-11-10",
+      "approved_by": "Sid",
+      "approved_at": "2026-11-10 09:11",
       "history": [
         {
           "date": "2026-11-05",
@@ -470,6 +489,10 @@
         {
           "date": "2026-11-08",
           "change": "Updated with 6 more WEDINOS samples, now also sold as MDMA, ketamine and Xanax. Moved from One to Watch to Heads Up. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-11",
+          "change": "Updated with samples from Wales, fake 2C-B and weight loss tablets. Stays a Heads Up. Update approved by Sid"
         }
       ]
     },
