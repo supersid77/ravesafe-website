@@ -97,8 +97,8 @@
       "status": "approved",
       "classification": "heads-up",
       "title": "Fake mephedrone: 4-CMC, 2-MMC and others sold as 4-MMC and 3-MMC in Europe and the UK",
-      "summary": "Drug checking services in the UK, Vienna, Berlin and Slovenia keep finding 4-CMC and other little-known chemicals in powder or crystal sold as mephedrone (4-MMC) or 3-MMC. WEDINOS has found 4-CMC in 11 more UK samples, the newest sold as mephedrone and published on 9 November, and 2-MMC in two more sold as mephedrone. checkit!'s 6 November report found 4-CMC, 2-MMC, NEP and alpha-PVP in samples sold as mephedrone or 3-MMC. 4-CMC has also turned up in UK crystal sold as MDMA and in pink \"tusi\".",
-      "sold_as": "Mephedrone (4-MMC), 3-MMC, \"mkat\". In the UK also MDMA crystal, pink \"tusi\" and one white tablet",
+      "summary": "Drug checking services in the UK, Vienna, Berlin and Slovenia keep finding 4-CMC and other little-known chemicals in powder or crystal sold as mephedrone (4-MMC) or 3-MMC. drugchecking.berlin's 2 November warning found 98.4% 4-CMC and no 3-MMC in crystals bought as 3-MMC. WEDINOS has now also found 4-CMC in UK powder sold as amphetamine (speed), as well as in more samples sold as mephedrone. 4-CMC has also turned up in UK crystal sold as MDMA and in pink \"tusi\".",
+      "sold_as": "Mephedrone (4-MMC), 3-MMC, \"mkat\", \"4M\". In the UK also amphetamine (speed), MDMA crystal, pink \"tusi\" and one white tablet",
       "detected": [
         "4-CMC",
         "2-MMC",
@@ -112,24 +112,24 @@
       "testing_org": "WEDINOS (Wales, UK), checkit! (Vienna), drugchecking.berlin, DrogArt (Slovenia)",
       "issuing_org": "",
       "source_url": "https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW45.pdf",
-      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026. Update: DrogArt 30 Oct 2026, dpDMC sold as 4-MMC (https://www.drogart.org/rezultati-in-opozorila/dpdmc-prodan-kot-4-mmc-na-darknetu/). Update: WEDINOS samples W106386, W106385, W106338, W106298, W105319, W104646, W104591, W104501, W105378. drugchecking.berlin 27 Oct 2026. Update 7 Nov: checkit! report KW45 2026. DrogArt 6 Nov 2026, 4-CMC sold as MMC and 2-MMC sold as 3-MMC in Ljubljana. WEDINOS 4-CMC: W106718, W103864, W102742, W101594, W102216 (sold as mephedrone), W102678, W102611 (sold as MDMA), W106741 (pink tusi). WEDINOS 2-MMC sold as MDMA: W103591, W103572. Update 10 Nov: WEDINOS 4-CMC W106852 (published 9 Nov), W101917, W101505, W101421, W101416, W101040, W101196, W074564, W100952, W100491, W101063 (tablet). 2-MMC sold as mephedrone: W101043, W100623",
-      "source_date": "2026-11-09",
+      "sample_ref": "checkit! report KW41 2026, DrogArt 9 Oct 2026, drugchecking.berlin 6 to 19 Oct 2026. Update: DrogArt 30 Oct 2026, dpDMC sold as 4-MMC (https://www.drogart.org/rezultati-in-opozorila/dpdmc-prodan-kot-4-mmc-na-darknetu/). Update: WEDINOS samples W106386, W106385, W106338, W106298, W105319, W104646, W104591, W104501, W105378. drugchecking.berlin 27 Oct 2026. Update 7 Nov: checkit! report KW45 2026. DrogArt 6 Nov 2026, 4-CMC sold as MMC and 2-MMC sold as 3-MMC in Ljubljana. WEDINOS 4-CMC: W106718, W103864, W102742, W101594, W102216 (sold as mephedrone), W102678, W102611 (sold as MDMA), W106741 (pink tusi). WEDINOS 2-MMC sold as MDMA: W103591, W103572. Update 10 Nov: WEDINOS 4-CMC W106852 (published 9 Nov), W101917, W101505, W101421, W101416, W101040, W101196, W074564, W100952, W100491, W101063 (tablet). 2-MMC sold as mephedrone: W101043, W100623. Update 13 Nov: drugchecking.berlin 2 Nov 2026, 4-CMC bought as 3-MMC. WEDINOS 4-CMC: W100351 (sold as amphetamine), W100058, W075613, W075505, W075599, W075597. 2-MMC: W075433, W075395, W075394",
+      "source_date": "2026-11-02",
       "location_label": "European",
-      "location_detail": "UK (WEDINOS postcodes for 4-CMC: CB4, RG1, SE17, SE01, SE13, SE5, N7, NW1, BH23, E1, E15, G44, TW8, EC1, E9, E2, TN14, E20, HP10, SY10, S18, NE3 and PL1. 2-MMC: BH12 and BD10 (sold as MDMA), HP2 and PE30 (sold as mephedrone)), Vienna (Austria), Berlin (Germany) and Slovenia (Ljubljana, and Maribor for the dpDMC sample, which was bought on the darknet as a brown crystal). UK postcodes are where samples were sent from, not proof of where they were sold.",
+      "location_detail": "UK (WEDINOS postcodes for 4-CMC: CB4, RG1, SE17, SE01, SE13, SE5, N7, NW1, BH23, E1, E15, G44, TW8, EC1, E9, E2, TN14, E20, HP10, SY10, S18, NE3, PL1, LE19 (sold as amphetamine), PE30, AL1 and SE58 (two). 2-MMC: BH12 and BD10 (sold as MDMA), HP2 and PE30 (sold as mephedrone), SL4 and BS3 (two, sold as 4mmc)), Vienna (Austria), Berlin (Germany) and Slovenia (Ljubljana, and Maribor for the dpDMC sample, which was bought on the darknet as a brown crystal). UK postcodes are where samples were sent from, not proof of where they were sold.",
       "original_warning_level": "",
       "trend_status": "Established",
-      "why_classified": "Labs have confirmed it again and again through 2026, in the UK too, and WEDINOS published another 4-CMC sample sold as mephedrone on 9 November. These chemicals are much less researched than mephedrone. 4-CMC is suspected of damaging nerve cells, and alpha-PVP is a strong stimulant linked to agitation and psychosis. We have no reports of serious harm linked to the UK samples, so we suggest it stays a Heads Up.",
-      "uncertainty": "We can't say how much of the mephedrone on sale in the UK is affected. Samples are chosen by the people sending them in. Most of the new UK samples were received in May and June and only collected now. W101196 is a Welsh-language page and may be a copy of a sample we don't have in English. checkit! only lists samples it flagged.",
+      "why_classified": "Labs have confirmed it again and again through 2026, in the UK too, and drugchecking.berlin flagged it again on 2 November. It's now turning up in UK powder sold as amphetamine, so people who don't use mephedrone may take it without knowing. These chemicals are much less researched than mephedrone, and 4-CMC is suspected of damaging nerve cells. We have no reports of serious harm linked to the UK samples, so we suggest it stays a Heads Up.",
+      "uncertainty": "We can't say how much of the mephedrone or amphetamine on sale in the UK is affected. Samples are chosen by the people sending them in. The new UK samples were received March to May and only collected now. The sample sold as amphetamine is one sample. checkit! only lists samples it flagged.",
       "advice": [
-        "Get it tested if you can. Crystal sold as MDMA can be a cathinone like 4-CMC.",
+        "Get it tested if you can. Powder sold as speed or crystal sold as MDMA can be a cathinone like 4-CMC.",
         "If it looks, smells or feels different from what you expect, don't take more.",
         "Start with a small amount and wait.",
         "Don't mix with alcohol or other stimulants.",
         "If someone overheats, has chest pain, a very fast heartbeat or seems very agitated or paranoid, call 999."
       ],
-      "reviewed_date": "2026-11-10",
-      "approved_by": "Sid",
-      "approved_at": "2026-11-10 09:13",
+      "reviewed_date": "2026-11-13",
+      "approved_by": "Jimmy",
+      "approved_at": "2026-11-13 09:17",
       "history": [
         {
           "date": "2026-10-29",
@@ -150,6 +150,10 @@
         {
           "date": "2026-11-11",
           "change": "Updated with 11 more UK 4-CMC samples and 2 more 2-MMC samples. Stays a Heads Up. Update approved by Sid"
+        },
+        {
+          "date": "2026-11-14",
+          "change": "Updated with 4-CMC in UK powder sold as amphetamine, the 2 Nov Berlin warning and more WEDINOS samples. Stays a Heads Up. Update approved by Jimmy"
         }
       ]
     },
@@ -255,33 +259,33 @@
       "id": "HU-2026-0005",
       "status": "approved",
       "classification": "heads-up",
-      "title": "3-CMC sold as MDMA in Ljubljana and the UK",
-      "summary": "DrogArt in Slovenia tested white, see-through crystal sold as MDMA in Ljubljana. It was 97% 3-CMC, a synthetic cathinone, with no MDMA found. WEDINOS has now found 3-CMC in white granules sold as MDMA in the UK, and in a capsule sold as mephedrone. 3-CMC feels different from MDMA, and people who think their MDMA is weak may take more.",
-      "sold_as": "MDMA (crystal or granules). In one UK sample, mephedrone",
+      "title": "3-CMC sold as MDMA or mephedrone in Ljubljana, Berlin and the UK",
+      "summary": "DrogArt in Slovenia tested white, see-through crystal sold as MDMA in Ljubljana. It was 97% 3-CMC, a synthetic cathinone, with no MDMA found. WEDINOS has found 3-CMC in white granules sold as MDMA in the UK, and in a capsule sold as mephedrone. On 3 November drugchecking.berlin warned that colourless crystals bought as mephedrone (4-MMC) were 3-CMC. 3-CMC feels different from MDMA or mephedrone, and people who think their drugs are weak may take more.",
+      "sold_as": "MDMA (crystal or granules) and mephedrone (4-MMC, crystal or capsule)",
       "detected": [
-        "3-CMC (97% in the DrogArt sample. WEDINOS gives no amounts)"
+        "3-CMC (97% in the DrogArt sample. WEDINOS and the Berlin warning give no amounts)"
       ],
       "evidence_type": "Laboratory-confirmed",
-      "testing_org": "DrogArt (Slovenia), tested by the National Laboratory of Health, Environment and Food (NLZOH), and WEDINOS (Wales, UK)",
-      "issuing_org": "DrogArt, WEDINOS",
+      "testing_org": "DrogArt (Slovenia), tested by the National Laboratory of Health, Environment and Food (NLZOH), and WEDINOS (Wales, UK), and drugchecking.berlin (Germany)",
+      "issuing_org": "DrogArt, WEDINOS, drugchecking.berlin",
       "source_url": "https://www.drogart.org/rezultati-in-opozorila/3-cmc-prodan-kot-mdma-v-ljubljani/",
-      "sample_ref": "DrogArt warning 30 Oct 2026, \"3-CMC prodan kot MDMA v Ljubljani\". WEDINOS samples W106451 and W104729",
-      "source_date": "2026-10-30",
+      "sample_ref": "DrogArt warning 30 Oct 2026, \"3-CMC prodan kot MDMA v Ljubljani\". WEDINOS samples W106451 and W104729. Update 13 Nov: drugchecking.berlin warning 3 Nov 2026, \"3-CMC (Clophedron) erworben als 4-MMC (Mephedron)\" (https://drugchecking.berlin/aktuelle-warnungen)",
+      "source_date": "2026-11-03",
       "location_label": "European",
-      "location_detail": "Ljubljana, Slovenia (white, see-through crystal). UK: WEDINOS postcodes S7 (sold as MDMA, white granules) and NP20 (sold as mephedrone, capsule). UK postcodes are where samples were sent from, not proof of where they were sold.",
+      "location_detail": "Ljubljana, Slovenia (white, see-through crystal). Berlin, Germany (colourless crystals bought as mephedrone). UK: WEDINOS postcodes S7 (sold as MDMA, white granules) and NP20 (sold as mephedrone, capsule). UK postcodes are where samples were sent from, not proof of where they were sold.",
       "original_warning_level": "DrogArt warning (opozorilo)",
       "trend_status": "Repeated",
-      "why_classified": "Labs in two countries have now confirmed it, including in the UK. DrogArt says 3-CMC has been linked to poisonings and deaths in five EU countries and is very addictive. It's still a small number of samples, so we suggest a Heads Up rather than an Alert.",
-      "uncertainty": "This is only a few samples. We don't know how much of it is around in the UK.",
+      "why_classified": "Labs in three countries have now confirmed it, including the UK. DrogArt says 3-CMC has been linked to poisonings and deaths in five EU countries and is very addictive. It's still a small number of samples, so we suggest it stays a Heads Up.",
+      "uncertainty": "This is only a few samples. We don't know how much of it is around in the UK. The Berlin warning, as collected, gives no amount.",
       "advice": [
-        "Crystal sold as MDMA can be something else. Get it tested if you can.",
+        "Crystal sold as MDMA or mephedrone can be something else. Get it tested if you can.",
         "Start with a small amount and wait at least 2 hours before taking more.",
         "Don't mix with alcohol or other stimulants.",
         "If someone overheats, has chest pain, a very fast heartbeat, a fit or seems very confused, call 999."
       ],
-      "reviewed_date": "2026-11-04",
+      "reviewed_date": "2026-11-13",
       "approved_by": "Jimmy",
-      "approved_at": "2026-11-04 09:25",
+      "approved_at": "2026-11-13 09:18",
       "history": [
         {
           "date": "2026-10-31",
@@ -290,6 +294,10 @@
         {
           "date": "2026-11-05",
           "change": "Updated with WEDINOS UK samples and moved from One to Watch to Heads Up. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-14",
+          "change": "Updated with the 3 Nov Berlin warning of 3-CMC sold as mephedrone. Stays a Heads Up. Update approved by Jimmy"
         }
       ]
     },
@@ -297,16 +305,19 @@
       "id": "HU-2026-0006",
       "status": "approved",
       "classification": "alert",
-      "title": "Nitazenes and fentanyl-type opioids found in UK heroin and a fake M30 tablet",
-      "summary": "WEDINOS has found nitazenes, very strong synthetic opioids, in about 20 UK samples, mostly heroin, plus blue tablets marked M30. The collector has just picked up 7 more, received in May and June, mostly from Edinburgh, West Lothian and Perth postcodes. One was a liquid handed in after an overdose (Cardiff postcode), which held etonitazene. Another was a white tablet sold as a nitazene. These drugs can stop someone breathing in tiny amounts.",
-      "sold_as": "Heroin. Also blue tablets marked M30, sold as oxycodone or an unspecified opioid, and one white tablet sold as a nitazene",
+      "title": "Nitazenes found in UK heroin, fake M30 tablets and a fake temazepam tablet",
+      "summary": "WEDINOS has found nitazenes, very strong synthetic opioids, in more than 20 UK samples, mostly heroin, plus blue tablets marked M30. Newest, published 10 November: a white tablet sold as temazepam 20mg (postcode given as NP33, in the Newport postcode area) held metonitazene and bromazolam, a strong benzo. People taking a benzo won't expect an opioid. The collector also picked up 3 older heroin samples with nitazenes, one also holding medetomidine and another little-known opioid. These drugs can stop someone breathing in tiny amounts.",
+      "sold_as": "Heroin. Also blue tablets marked M30, sold as oxycodone or an unspecified opioid, one white tablet sold as a nitazene and one white tablet sold as temazepam",
       "detected": [
         "Metonitazene",
         "Etonitazene",
         "Etonitazene N,N-dimethyl analogue",
         "N-desethyl protonitazene",
         "N-desethyl isotonitazene",
+        "Protonitazene",
         "Unknown fentanyl",
+        "N-propionitrile chlorphine (a little-known substance, in one heroin sample)",
+        "Bromazolam (a benzo) in the fake temazepam tablet",
         "Xylazine in one heroin sample",
         "Medetomidine in some of the heroin samples"
       ],
@@ -314,24 +325,24 @@
       "testing_org": "WEDINOS (Wales, UK)",
       "issuing_org": "WEDINOS",
       "source_url": "https://wedinos.wales/sample/w105132/",
-      "sample_ref": "WEDINOS samples W105132, W104433, W105120, W105400 and W104180. Update: W106053, W102863, W102976, W102020, W103073, W103913, 000239974-2 (heroin) and W103567 (M30 tablet). Update 10 Nov: W101291, W069113, W101033, W100709, W100279, 000235810-2 (found during an overdose) and 000233464-2 (tablet)",
-      "source_date": "2026-11-04",
+      "sample_ref": "WEDINOS samples W105132, W104433, W105120, W105400 and W104180. Update: W106053, W102863, W102976, W102020, W103073, W103913, 000239974-2 (heroin) and W103567 (M30 tablet). Update 10 Nov: W101291, W069113, W101033, W100709, W100279, 000235810-2 (found during an overdose) and 000233464-2 (tablet). Update 13 Nov: fake temazepam tablet W106783 (https://wedinos.wales/sample/w106783/). Heroin W100254, W075674, W075145",
+      "source_date": "2026-11-10",
       "location_label": "UK-wide",
-      "location_detail": "England, Wales and Scotland. Postcodes given with the samples: RH5 and BH14 (M30 tablets), ZE1, SA1, SM2 (two samples), TD12, G82, PH1 (three samples), EH7, EH6, EH15, EH48, EH54, KA11, NP20 and CF10. One tablet had no postcode. Those are samples sent in, not proof of where the drugs are sold.",
+      "location_detail": "England, Wales and Scotland. Postcodes given with the samples: RH5 and BH14 (M30 tablets), NP33 as given (temazepam tablet, NP33 is not a standard district), ZE1, SA1, SM2 (two samples), TD12, G82, PH1 (three samples), EH7, EH6, EH12, EH15, EH48, EH54, KA11, NP20 and CF10. G741 as given (not a standard district). Two samples had no postcode. Those are samples sent in, not proof of where the drugs are sold.",
       "original_warning_level": "No warning level. WEDINOS sample results",
       "trend_status": "Repeated",
-      "why_classified": "A UK lab has confirmed these opioids in about 20 samples received between May and October, in England, Wales and Scotland. Nitazenes can kill in tiny amounts, and people buying heroin may not know they're there. Several people sending samples in reported loss of consciousness, and one sample was handed in after an overdose. That's why it stays an Alert.",
-      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported. WEDINOS doesn't give the amounts. The new samples were received in May and June and only collected now. Three samples (000239974-2, 000235810-2, 000233464-2) are Welsh-language pages and may be copies of samples we don't have in English. W100279 shows a received date after its publish date, so its dates may be wrong.",
+      "why_classified": "A UK lab has confirmed these opioids in more than 20 samples received between March and October, in England, Wales and Scotland, and now in a tablet sold as temazepam. Nitazenes can kill in tiny amounts. People buying heroin or benzos may not know they're there, and mixing an opioid with a strong benzo makes stopped breathing more likely. Several people sending samples in reported loss of consciousness, and one sample was handed in after an overdose. That's why it stays an Alert.",
+      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported. WEDINOS doesn't give the amounts. The 3 heroin samples added on 13 Nov were received March to May and only collected now. The temazepam tablet is one sample, and we don't know if others from the same batch are around. Three samples (000239974-2, 000235810-2, 000233464-2) are Welsh-language pages and may be copies of samples we don't have in English. W100279 shows a received date after its publish date, so its dates may be wrong. N-propionitrile chlorphine is listed by WEDINOS but we know very little about it.",
       "advice": [
         "Don't use alone, and don't all use at the same time, so someone can call for help.",
-        "Carry naloxone. In the UK you can get it free from many drug services and some pharmacies.",
+        "Carry naloxone. In the UK you can get it free from many drug services and some pharmacies. It's worth carrying if you take street benzos too.",
         "Start with a very small test amount, even from a usual source.",
-        "Don't mix with alcohol, benzos, GHB/GBL or other opioids.",
+        "Don't mix with alcohol, benzos, GHB/GBL or other opioids. A street benzo tablet may already contain an opioid.",
         "If someone can't be woken, has slow or no breathing, or blue lips, call 999, give naloxone if you have it and put them in the recovery position. Naloxone won't reverse xylazine or medetomidine, so still call 999 even if they start breathing."
       ],
-      "reviewed_date": "2026-11-10",
-      "approved_by": "Sid",
-      "approved_at": "2026-11-10 09:11",
+      "reviewed_date": "2026-11-13",
+      "approved_by": "Jimmy",
+      "approved_at": "2026-11-13 09:18",
       "history": [
         {
           "date": "2026-11-05",
@@ -344,6 +355,10 @@
         {
           "date": "2026-11-11",
           "change": "Updated with 7 more WEDINOS samples, one handed in after an overdose. Stays an Alert. Update approved by Sid"
+        },
+        {
+          "date": "2026-11-14",
+          "change": "Updated with metonitazene in a fake temazepam tablet and 3 more heroin samples. Stays an Alert. Update approved by Jimmy"
         }
       ]
     },
