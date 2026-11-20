@@ -310,8 +310,8 @@
       "status": "approved",
       "classification": "alert",
       "title": "Nitazenes found in UK heroin, fake M30 tablets and a fake temazepam tablet",
-      "summary": "WEDINOS has found nitazenes, very strong synthetic opioids, in more than 20 UK samples, mostly heroin, plus blue tablets marked M30. Newest, published 10 November: a white tablet sold as temazepam 20mg (postcode given as NP33, in the Newport postcode area) held metonitazene and bromazolam, a strong benzo. People taking a benzo won't expect an opioid. The collector also picked up 3 older heroin samples with nitazenes, one also holding medetomidine and another little-known opioid. These drugs can stop someone breathing in tiny amounts.",
-      "sold_as": "Heroin. Also blue tablets marked M30, sold as oxycodone or an unspecified opioid, one white tablet sold as a nitazene and one white tablet sold as temazepam",
+      "summary": "WEDINOS has found nitazenes, very strong synthetic opioids, in more than 20 UK samples, mostly heroin, plus blue tablets marked M30 and a white tablet sold as temazepam. Newest, published 18 November: two more samples with Newport (NP20) postcodes, sent in on 13 and 16 November. Both held metonitazene and xylazine, an animal sedative. One, sold as heroin, also held two strong benzos. The other was a brown liquid with nothing stated as sold as. These drugs can stop someone breathing in tiny amounts, and naloxone won't reverse xylazine.",
+      "sold_as": "Heroin. Also blue tablets marked M30, sold as oxycodone or an unspecified opioid, one white tablet sold as a nitazene, one white tablet sold as temazepam, and one brown liquid with nothing stated",
       "detected": [
         "Metonitazene",
         "Etonitazene",
@@ -321,22 +321,23 @@
         "Protonitazene",
         "Unknown fentanyl",
         "N-propionitrile chlorphine (a little-known substance, in one heroin sample)",
-        "Bromazolam (a benzo) in the fake temazepam tablet",
-        "Xylazine in one heroin sample",
+        "Bromazolam (a benzo) in the fake temazepam tablet and one Newport heroin sample",
+        "Nitrazolam (a little-known benzo) in one Newport heroin sample",
+        "Xylazine in three samples, all with Newport (NP20) postcodes",
         "Medetomidine in some of the heroin samples"
       ],
       "evidence_type": "Laboratory-confirmed",
       "testing_org": "WEDINOS (Wales, UK)",
       "issuing_org": "WEDINOS",
-      "source_url": "https://wedinos.wales/sample/w105132/",
-      "sample_ref": "WEDINOS samples W105132, W104433, W105120, W105400 and W104180. Update: W106053, W102863, W102976, W102020, W103073, W103913, 000239974-2 (heroin) and W103567 (M30 tablet). Update 10 Nov: W101291, W069113, W101033, W100709, W100279, 000235810-2 (found during an overdose) and 000233464-2 (tablet). Update 13 Nov: fake temazepam tablet W106783 (https://wedinos.wales/sample/w106783/). Heroin W100254, W075674, W075145",
-      "source_date": "2026-11-10",
+      "source_url": "https://wedinos.wales/sample/000240444-2/",
+      "sample_ref": "WEDINOS samples W105132, W104433, W105120, W105400 and W104180. Update: W106053, W102863, W102976, W102020, W103073, W103913, 000239974-2 (heroin) and W103567 (M30 tablet). Update 10 Nov: W101291, W069113, W101033, W100709, W100279, 000235810-2 (found during an overdose) and 000233464-2 (tablet). Update 13 Nov: fake temazepam tablet W106783 (https://wedinos.wales/sample/w106783/). Heroin W100254, W075674, W075145. Update 19 Nov: WEDINOS 000240444-2 (heroin, https://wedinos.wales/sample/000240444-2/) and 000240458-2 (brown liquid, https://wedinos.wales/sample/000240458-2/), both NP20, published 18 Nov",
+      "source_date": "2026-11-18",
       "location_label": "UK-wide",
-      "location_detail": "England, Wales and Scotland. Postcodes given with the samples: RH5 and BH14 (M30 tablets), NP33 as given (temazepam tablet, NP33 is not a standard district), ZE1, SA1, SM2 (two samples), TD12, G82, PH1 (three samples), EH7, EH6, EH12, EH15, EH48, EH54, KA11, NP20 and CF10. G741 as given (not a standard district). Two samples had no postcode. Those are samples sent in, not proof of where the drugs are sold.",
+      "location_detail": "England, Wales and Scotland. Postcodes given with the samples: RH5 and BH14 (M30 tablets), NP33 as given (temazepam tablet, NP33 is not a standard district), ZE1, SA1, SM2 (two samples), TD12, G82, PH1 (three samples), EH7, EH6, EH12, EH15, EH48, EH54, KA11, NP20 (three samples, including the two published 18 Nov) and CF10. G741 as given (not a standard district). Two samples had no postcode. NP20 is central Newport. Those are samples sent in, not proof of where the drugs are sold.",
       "original_warning_level": "No warning level. WEDINOS sample results",
       "trend_status": "Repeated",
-      "why_classified": "A UK lab has confirmed these opioids in more than 20 samples received between March and October, in England, Wales and Scotland, and now in a tablet sold as temazepam. Nitazenes can kill in tiny amounts. People buying heroin or benzos may not know they're there, and mixing an opioid with a strong benzo makes stopped breathing more likely. Several people sending samples in reported loss of consciousness, and one sample was handed in after an overdose. That's why it stays an Alert.",
-      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported. WEDINOS doesn't give the amounts. The 3 heroin samples added on 13 Nov were received March to May and only collected now. The temazepam tablet is one sample, and we don't know if others from the same batch are around. Three samples (000239974-2, 000235810-2, 000233464-2) are Welsh-language pages and may be copies of samples we don't have in English. W100279 shows a received date after its publish date, so its dates may be wrong. N-propionitrile chlorphine is listed by WEDINOS but we know very little about it.",
+      "why_classified": "A UK lab has confirmed these opioids in more than 20 samples in England, Wales and Scotland, and the newest two were sent in only last week. Nitazenes can kill in tiny amounts, and people buying heroin may not know they're there. Both new Newport samples also held xylazine, which naloxone won't reverse, and one held two strong benzos, which make stopped breathing more likely. Several people sending samples in have reported loss of consciousness, and one sample was handed in after an overdose. That's why it stays an Alert.",
+      "uncertainty": "Samples are chosen by the people sending them in, so we can't say how common it is. Effects are self-reported, and none were given for the two new samples. WEDINOS doesn't give the amounts. The two new samples are Welsh-language pages (IDs ending -2) and may also appear later under English IDs, so please count them once. Three Newport samples with xylazine may point to a local batch, but we can't be sure. Three older samples (000239974-2, 000235810-2, 000233464-2) are also Welsh-language pages. W100279 shows a received date after its publish date, so its dates may be wrong. N-propionitrile chlorphine is listed by WEDINOS but we know very little about it.",
       "advice": [
         "Don't use alone, and don't all use at the same time, so someone can call for help.",
         "Carry naloxone. In the UK you can get it free from many drug services and some pharmacies. It's worth carrying if you take street benzos too.",
@@ -344,9 +345,9 @@
         "Don't mix with alcohol, benzos, GHB/GBL or other opioids. A street benzo tablet may already contain an opioid.",
         "If someone can't be woken, has slow or no breathing, or blue lips, call 999, give naloxone if you have it and put them in the recovery position. Naloxone won't reverse xylazine or medetomidine, so still call 999 even if they start breathing."
       ],
-      "reviewed_date": "2026-11-13",
+      "reviewed_date": "2026-11-19",
       "approved_by": "Jimmy",
-      "approved_at": "2026-11-13 09:18",
+      "approved_at": "2026-11-19 09:07",
       "history": [
         {
           "date": "2026-11-05",
@@ -363,6 +364,10 @@
         {
           "date": "2026-11-14",
           "change": "Updated with metonitazene in a fake temazepam tablet and 3 more heroin samples. Stays an Alert. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-20",
+          "change": "Updated with metonitazene and xylazine in two new Newport samples published 18 Nov. Stays an Alert. Update approved by Jimmy"
         }
       ]
     },
