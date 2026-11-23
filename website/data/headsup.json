@@ -48,7 +48,7 @@
       "status": "approved",
       "classification": "alert",
       "title": "PMMA in pills sold as ecstasy, now found in the UK",
-      "summary": "Drug checking services in eight countries, including the UK, have found PMMA in pills sold as ecstasy (MDMA). It turns up on its own or mixed with MDMA. checkit! in Vienna found PMMA again in its 6 November report, in two pink and purple Trump pills (40 mg and 48 mg). PMMA takes much longer to kick in, so people think the pill is weak and take more, which can be deadly.",
+      "summary": "Drug checking services in eight countries, including the UK, have found PMMA in pills sold as ecstasy (MDMA). It turns up on its own or mixed with MDMA. checkit! in Vienna found it again in its 20 November report: a purple and turquoise Abarth pill held 158 mg of MDMA and 6 mg of PMMA. Earlier in November it found PMMA in two pink and purple Trump pills (40 mg and 48 mg). PMMA takes much longer to kick in, so people think the pill is weak and take more, which can be deadly.",
       "sold_as": "Ecstasy (MDMA) pills",
       "detected": [
         "PMMA",
@@ -59,14 +59,14 @@
       "testing_org": "Drug checking services across Europe, including WEDINOS (UK), compiled by the TEDI network",
       "issuing_org": "TEDI network",
       "source_url": "https://tedinetwork.org/warnings/",
-      "sample_ref": "TEDI MDMA adulteration warning, update 20 October 2026. UK sample: WEDINOS W105398 (https://wedinos.wales/sample/w105398/). Update: checkit! report KW45 2026 (https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW45.pdf), two pink and purple Trump pills, 40 mg and 48 mg PMMA",
-      "source_date": "2026-11-06",
+      "sample_ref": "TEDI MDMA adulteration warning, update 20 October 2026. UK sample: WEDINOS W105398 (https://wedinos.wales/sample/w105398/). Update: checkit! report KW45 2026 (https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW45.pdf), two pink and purple Trump pills, 40 mg and 48 mg PMMA. Update 22 Nov: checkit! report KW47 2026 (https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW47.pdf), purple and turquoise Abarth pill, 158 mg MDMA and 6 mg PMMA",
+      "source_date": "2026-11-20",
       "location_label": "European",
-      "location_detail": "Austria, Belgium, Germany, Italy, the Netherlands, Spain, Switzerland and the United Kingdom. Logos seen so far: Trump, Red Bull, Club 555, Donkey Kong / Gorilla, Hulk, Abarth, Mitsubishi. The UK pill was grey with a Trump logo, stamped \"280mg\" (a marking, not the dose). WEDINOS gives its sample as grey and pink, with MDMA and PMMA both found, received 22 Sep 2026, postcode BN17. That is where the sample was sent from, not proof of where it was sold. Vienna, 6 Nov 2026: pink and purple Trump pills, \"NL\" on one side, score line on the back, about 595 to 610 mg.",
+      "location_detail": "Austria, Belgium, Germany, Italy, the Netherlands, Spain, Switzerland and the United Kingdom. Logos seen so far: Trump, Red Bull, Club 555, Donkey Kong / Gorilla, Hulk, Abarth, Mitsubishi. The UK pill was grey with a Trump logo, stamped \"280mg\" (a marking, not the dose). WEDINOS gives its sample as grey and pink, with MDMA and PMMA both found, received 22 Sep 2026, postcode BN17. That is where the sample was sent from, not proof of where it was sold. Vienna, 6 Nov 2026: pink and purple Trump pills, \"NL\" on one side, score line on the back, about 595 to 610 mg. Vienna, 20 Nov 2026: purple and turquoise Abarth pill, score line on the back, about 399 mg.",
       "original_warning_level": "Highest level warning issued by Trimbos (Netherlands), late August 2026",
       "trend_status": "Repeated",
-      "why_classified": "Several labs in eight countries have confirmed it, including in the UK, and checkit! found it again in Vienna in November. PMMA has caused deaths in Europe before, and the danger comes from re-dosing when the pill seems weak. That's why it stays an Alert.",
-      "uncertainty": "We don't know how widespread it is in the UK yet. A pill's look tells you nothing about what's in it: the same logo can contain different things.",
+      "why_classified": "Several labs in eight countries have confirmed it, including in the UK, and checkit! found it in Vienna again on 6 and 20 November. PMMA has caused deaths in Europe before, and the danger comes from re-dosing when the pill seems weak. The latest pill mixed a small amount of PMMA with a strong dose of MDMA, which home tests can miss. That's why it stays an Alert.",
+      "uncertainty": "We don't know how widespread it is in the UK yet. A pill's look tells you nothing about what's in it: the same logo can contain different things. checkit!'s 20 November report also lists a brown and purple Trump pill with 90 mg of MDMA and an unidentified substance. That isn't confirmed as PMMA, so it isn't counted here.",
       "advice": [
         "Get your pills tested before you take them. In the UK you can post a sample to WEDINOS.",
         "If a pill feels weak or slow, don't take more. PMMA can take up to 3 hours to fully kick in.",
@@ -74,9 +74,9 @@
         "Watch for overheating, a very fast pulse, muscle stiffness, confusion or fitting. Call 999 straight away if you see them.",
         "Don't use alone, and look out for your mates."
       ],
-      "reviewed_date": "2026-11-07",
+      "reviewed_date": "2026-11-22",
       "approved_by": "Jimmy",
-      "approved_at": "2026-11-07 11:09",
+      "approved_at": "2026-11-22 16:10",
       "history": [
         {
           "date": "2026-10-29",
@@ -89,6 +89,10 @@
         {
           "date": "2026-11-08",
           "change": "Updated with checkit!'s 6 Nov finding of PMMA in pink and purple Trump pills in Vienna. Stays an Alert. Update approved by Jimmy"
+        },
+        {
+          "date": "2026-11-23",
+          "change": "Updated with checkit!'s 20 Nov finding of PMMA in an Abarth pill in Vienna. Stays an Alert. Update approved by Jimmy"
         }
       ]
     },
