@@ -568,38 +568,47 @@
       "status": "approved",
       "classification": "one-to-watch",
       "title": "Very strong ecstasy pills: up to 304 mg of MDMA in Slovenia and Vienna",
-      "summary": "DrogArt in Slovenia found 304 mg of MDMA in a Squid Game pill on 6 November. checkit! in Vienna found up to 243 mg in a blue Cookie Monster pill, and more than 170 mg in several others. That's two to three times a typical adult dose in one pill.",
+      "summary": "DrogArt in Slovenia found 304 mg of MDMA in a Squid Game pill on 6 November, and on 20 November 196 mg in an ecstasy pill made to look like the painkiller Percocet. checkit! in Vienna keeps finding very strong pills: its 20 November report lists a pink Red Bull pill with 213 mg, a purple Soundcloud pill with 201 mg and seven more over 180 mg. That's up to two to three times a typical adult dose in one pill.",
       "sold_as": "Ecstasy (MDMA) pills",
       "detected": [
         "MDMA (304 mg, Squid Game pill, DrogArt)",
         "MDMA (186 mg and 243 mg, blue Cookie Monster pills, checkit!)",
-        "MDMA over 170 mg in Gengar, Angry Bird, Lacoste and Punisher pills (checkit!)"
+        "MDMA over 170 mg in Gengar, Angry Bird, Lacoste and Punisher pills (checkit!)",
+        "MDMA (196 mg, pill made to look like Percocet, DrogArt, 20 Nov)",
+        "MDMA (213 mg, pink Red Bull pill, checkit!, 20 Nov)",
+        "MDMA (201 mg, purple Soundcloud pill, checkit!, 20 Nov)",
+        "MDMA 181 to 194 mg in Fendi Roma, Punisher, Bob der Baumeister and Moncler pills (checkit!, 20 Nov)"
       ],
       "evidence_type": "Laboratory-confirmed",
       "testing_org": "DrogArt (Slovenia) and checkit! (Vienna)",
       "issuing_org": "DrogArt, checkit!",
       "source_url": "https://www.drogart.org/rezultati-in-opozorila/squid-game-mdma-4/",
-      "sample_ref": "DrogArt result 6 Nov 2026, \"Squid game (MDMA)\". checkit! report KW45 2026 (https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW45.pdf)",
-      "source_date": "2026-11-06",
+      "sample_ref": "DrogArt result 6 Nov 2026, \"Squid game (MDMA)\". checkit! report KW45 2026 (https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW45.pdf). Update 22 Nov: DrogArt result 20 Nov 2026, \"Ekstazi z videzom zdravila Percocet in visoko vsebnostjo MDMA\" (https://www.drogart.org/rezultati-in-opozorila/ekstazi-z-videzom-zdravila-percocet-in-visoko-vsebnostjo-mdma/). checkit! report KW47 2026 (https://checkit.wien/wp-content/uploads/2026/11/checkit_Warnungen_2026_KW47.pdf)",
+      "source_date": "2026-11-20",
       "location_label": "European",
-      "location_detail": "Slovenia (Squid Game pill, place not given) and Vienna, Austria (blue Cookie Monster pill, Cookie Monster on both sides, about 436 mg). Not found in UK results in our data so far, but WEDINOS doesn't publish amounts.",
+      "location_detail": "Slovenia (Squid Game pill and the Percocet look-alike, place not given) and Vienna, Austria (blue Cookie Monster pill, Cookie Monster on both sides, about 436 mg. 20 Nov: pink Red Bull pill, Red Bull on the back, about 413 mg. Purple Soundcloud pill, \"NL\" on the back, about 368 mg). Not found in UK results in our data so far, but WEDINOS doesn't publish amounts.",
       "original_warning_level": "DrogArt result (rezultat), checkit! warning report",
       "trend_status": "Repeated",
-      "why_classified": "Two labs have confirmed pills with two to three times a typical dose. Very strong pills are a common cause of overheating and serious harm at events, and the same logos can turn up in the UK. None has been found in UK results in our data, so we suggest watching it rather than a Heads Up.",
-      "uncertainty": "We don't know if these pills are in the UK. The same logo can hold very different amounts, even in one batch: checkit!'s two Cookie Monster pills held 186 mg and 243 mg.",
+      "why_classified": "Two labs keep confirming pills with two to three times a typical dose, and both found more in November. Very strong pills are a common cause of overheating and serious harm at events, and the same logos can turn up in the UK. A pill made to look like a prescription painkiller could also be taken by someone who doesn't expect MDMA at all. None has been found in UK results in our data, so we suggest it stays One to Watch.",
+      "uncertainty": "We don't know if these pills are in the UK. The same logo can hold very different amounts: checkit!'s Punisher pills on 20 November held anywhere from 113 mg to 191 mg. Numbers stamped on pills mean nothing: a Bob der Baumeister pill marked \"250 mg\" held 181 mg. The collector's copy of the DrogArt Percocet result doesn't describe the pill's colour or markings.",
       "advice": [
         "Get your pills tested if you can. In the UK you can post a sample to WEDINOS.",
         "Start with a quarter or half a pill and wait at least 2 hours before taking more.",
+        "A number stamped on a pill isn't its dose, and a pill that looks like a medicine may not be one.",
         "Take breaks from dancing, sip water (about a pint an hour if you're dancing) and don't mix with alcohol.",
         "If someone overheats, is very confused, has a fit or collapses, call 999 straight away."
       ],
-      "reviewed_date": "2026-11-07",
+      "reviewed_date": "2026-11-22",
       "approved_by": "Jimmy",
-      "approved_at": "2026-11-07 11:10",
+      "approved_at": "2026-11-26 04:42",
       "history": [
         {
           "date": "2026-11-08",
           "change": "Approved by Jimmy"
+        },
+        {
+          "date": "2026-11-26",
+          "change": "Updated with DrogArt's 20 Nov Percocet look-alike (196 mg) and checkit!'s 20 Nov report, including a Red Bull pill with 213 mg. Stays One to Watch. Update approved by Jimmy"
         }
       ]
     }
